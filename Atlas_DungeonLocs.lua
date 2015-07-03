@@ -210,6 +210,7 @@ local myData = {
 		{ WHIT.." 7) "..BZ["Auchindoun"]..", ".._RED..BZ["Talador"] };
 		{ WHIT.." 8) "..BZ["Shadowmoon Burial Grounds"]..", ".._RED..BZ["Shadowmoon Valley"] };
 		{ WHIT.." 9) "..BZ["Skyreach"]..", ".._RED..BZ["Spires of Arak"] };
+		{ WHIT.."10) "..BZ["Hellfire Citadel"]..", ".._RED..BZ["Tanaan Jungle"] };
 	};
 };
 
