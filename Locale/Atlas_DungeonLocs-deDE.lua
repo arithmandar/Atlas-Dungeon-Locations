@@ -30,7 +30,6 @@ local AL = AceLocale:NewLocale("Atlas_DungeonLocs", "deDE", false);
 --    local AL = AceLocale:NewLocale("Atlas_DungeonLocs", "deDE", false);
 if AL then
 	--Common
-	AL["Battlegrounds"] = "Schlachtfelder";
 	AL["Blue"] = "Blau";
 	AL["Dungeon Locations"] = "Instanz-Standorte";
 	AL["Green"] = "Grün";

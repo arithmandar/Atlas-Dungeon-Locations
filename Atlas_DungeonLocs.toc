@@ -23,3 +23,4 @@
 
 Locale\Locales.xml
 Atlas_DungeonLocs.lua
+Atlas_DungeonLocs_DB.lua

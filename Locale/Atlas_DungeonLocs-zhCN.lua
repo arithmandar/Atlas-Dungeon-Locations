@@ -33,7 +33,6 @@ local AL = AceLocale:NewLocale("Atlas_DungeonLocs", "zhCN", false);
 --    local AL = AceLocale:NewLocale("Atlas_DungeonLocs", "deDE", false);
 if AL then
 	--Common
-	AL["Battlegrounds"] = "战场";
 	AL["Blue"] = "蓝色";
 	AL["Dungeon Locations"] = "副本区域";
 	AL["Green"] = "绿色";
