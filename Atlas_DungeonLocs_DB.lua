@@ -125,6 +125,20 @@ local myDB = {
 		{ "1'", 10011, 460, 195 }; -- Ashran
 		{ "1'", 10011, 460, 240 }; -- Ashran
 	};
+	DLBrokenIsles = {
+		{ " 1", 10001, 250, 340 }; --Assault on Violet Hold
+		{ " 2", 10002, 156, 375 }; --Vault of the Wardens
+		{ " 3", 10003, 245, 443 }; --Eye of Azshara
+		{ " 4", 10004, 123, 174 }; --Black Rook Hold
+		{ " 5", 10005, 160, 156 }; --The Emerald Nightmare
+		{ " 6", 10006, 166, 146 }; --Darkheart Thicket
+		{ " 7", 10007, 257, 150 }; --Neltharion's Lair
+		{ " 8", 10008, 341, 165 }; --Maw of Souls
+		{ " 9", 10009, 388, 202 }; --Halls of Valor
+		{ "10", 10010, 241, 263 }; --The Arcway
+		{ "11", 10011, 264, 257 }; --Court of Stars
+		{ "12", 10012, 254, 247 }; --The Nighthold
+	};
 };
 
 

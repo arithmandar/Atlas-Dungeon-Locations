@@ -25,7 +25,7 @@
 --]]
 
 local BZ = Atlas_GetLocaleLibBabble("LibBabble-SubZone-3.0");
-local AL = LibStub("AceLocale-3.0"):GetLocale("Atlas_DungeonLocs");
+local L = LibStub("AceLocale-3.0"):GetLocale("Atlas_DungeonLocs");
 local ALC = LibStub("AceLocale-3.0"):GetLocale("Atlas");
 
 local BLUE = "|cff6666ff";
@@ -39,7 +39,7 @@ local WHIT = "|cffffffff";
 local YLOW = "|cffcccc33";
 local INDENT = "      ";
 
-local myCategory = AL["Dungeon Locations"];
+local myCategory = L["Dungeon Locations"];
 
 local myData = {
 	DLEast = {
@@ -78,8 +78,8 @@ local myData = {
 		{ GREN.." 2') "..BZ["Arathi Basin"]..", ".._RED..BZ["Arathi Highlands"], 10021 };
 		{ GREN.." 3') "..BZ["Tol Barad"]..", ".._RED..BZ["Tol Barad"], 10022 };
 		{ "" };
-		{ WHIT..AL["White"]..": "..ORNG..AL["Instances"] };
-		{ GREN..AL["Green"]..": "..ORNG..BATTLEGROUNDS };
+		{ WHIT..L["White"]..ALC["Colon"]..ORNG..L["Instances"] };
+		{ GREN..L["Green"]..ALC["Colon"]..ORNG..BATTLEGROUNDS };
 	};
 	DLWest = {
 		ZoneName = { BZ["Kalimdor"] };
@@ -111,8 +111,8 @@ local myData = {
 		{ WHIT.."16) "..BZ["The Vortex Pinnacle"]..", ".._RED..BZ["Uldum"], 10016 };
 		{ GREN.." 1') "..BZ["Warsong Gulch"]..", ".._RED..BZ["Ashenvale"], 10017 };
 		{ "" };
-		{ WHIT..AL["White"]..": "..ORNG..AL["Instances"] };
-		{ GREN..AL["Green"]..": "..ORNG..BATTLEGROUNDS };
+		{ WHIT..L["White"]..ALC["Colon"]..ORNG..L["Instances"] };
+		{ GREN..L["Green"]..ALC["Colon"]..ORNG..BATTLEGROUNDS };
 	};
 	DLOutland = {
 		ZoneName = { BZ["Outland"] };
@@ -174,8 +174,8 @@ local myData = {
 		{ WHIT..INDENT..BZ["Utgarde Pinnacle"] };
 		{ GREN.." 1') "..BZ["Wintergrasp"]..", ".._RED..BZ["Wintergrasp"], 10013 };
 		{ "" };
-		{ WHIT..AL["White"]..": "..ORNG..AL["Instances"] };
-		{ GREN..AL["Green"]..": "..ORNG..BATTLEGROUNDS };
+		{ WHIT..L["White"]..ALC["Colon"]..ORNG..L["Instances"] };
+		{ GREN..L["Green"]..ALC["Colon"]..ORNG..BATTLEGROUNDS };
 	};
 	DLDeepholm = {
 		ZoneName = { BZ["Deepholm"] };
@@ -196,8 +196,17 @@ local myData = {
 		{ WHIT.."11) "..BZ["Stormstout Brewery"]..", ".._RED..BZ["Valley of the Four Winds"], 10011 };
 		{ GREN.." 1') "..BZ["Deepwind Gorge"]..", ".._RED..BZ["Valley of the Four Winds"], 10012 };
 		{ "" };
-		{ WHIT..AL["White"]..": "..ORNG..AL["Instances"] };
-		{ GREN..AL["Green"]..": "..ORNG..BATTLEGROUNDS };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ WHIT..L["White"]..ALC["Colon"]..ORNG..L["Instances"] };
+		{ GREN..L["Green"]..ALC["Colon"]..ORNG..BATTLEGROUNDS };
 	};
 	DLDraenor = {
 		ZoneName = { BZ["Draenor"] };
@@ -213,8 +222,46 @@ local myData = {
 		{ WHIT.."10) "..BZ["Hellfire Citadel"]..", ".._RED..BZ["Tanaan Jungle"], 10010 };
 		{ GREN.." 1') "..BZ["Ashran"]..", ".._RED..BZ["Ashran"], 10011 };
 		{ "" };
-		{ WHIT..AL["White"]..": "..ORNG..AL["Instances"] };
-		{ GREN..AL["Green"]..": "..ORNG..BATTLEGROUNDS };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ WHIT..L["White"]..ALC["Colon"]..ORNG..L["Instances"] };
+		{ GREN..L["Green"]..ALC["Colon"]..ORNG..BATTLEGROUNDS };
+	};
+	DLBrokenIsles = {
+		ZoneName = { BZ["Broken Isles"] };
+		{ WHIT.." 1) "..BZ["Assault on Violet Hold"]..", ".._RED..BZ["Dalaran"], 10001 };
+		{ WHIT.." 2) "..BZ["Vault of the Wardens"]..", ".._RED..BZ["Azsuna"], 10002 };
+		{ WHIT.." 3) "..BZ["Eye of Azshara"]..", ".._RED..BZ["Azsuna"], 10003 };
+		{ WHIT.." 4) "..BZ["Black Rook Hold"]..", ".._RED..BZ["Val'sharah"], 10004 };
+		{ WHIT.." 5) "..BZ["The Emerald Nightmare"]..", ".._RED..BZ["Val'sharah"], 10005 };
+		{ WHIT.." 6) "..BZ["Darkheart Thicket"]..", ".._RED..BZ["Val'sharah"], 10006 };
+		{ WHIT.." 7) "..BZ["Neltharion's Lair"]..", ".._RED..BZ["Highmountain"], 10007 };
+		{ WHIT.." 8) "..BZ["Maw of Souls"]..", ".._RED..BZ["Stormheim"], 10008 };
+		{ WHIT.." 9) "..BZ["Halls of Valor"]..", ".._RED..BZ["Stormheim"], 10009 };
+		{ WHIT.."10) "..BZ["The Arcway"]..", ".._RED..BZ["Suramar"], 10010 };
+		{ WHIT.."11) "..BZ["Court of Stars"]..", ".._RED..BZ["Suramar"], 10011 };
+		{ WHIT.."12) "..BZ["The Nighthold"]..", ".._RED..BZ["Suramar"], 10012 };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ WHIT..L["White"]..ALC["Colon"]..ORNG..L["Instances"] };
+		--{ GREN..L["Green"]..ALC["Colon"]..ORNG..BATTLEGROUNDS };
 	};
 };
 

@@ -4,7 +4,7 @@
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005 ~ 2010 - Dan Gilbert <dan.b.gilbert@gmail.com>
 	Copyright 2010 - Lothaer <lothayer@gmail.com>, Atlas Team
-	Copyright 2011 ~ 2015 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
+	Copyright 2011 ~ 2016 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 
 	This file is part of Atlas.
 
@@ -25,14 +25,8 @@
 --]]
 
 local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
-local AL = AceLocale:NewLocale("Atlas_DungeonLocs", "deDE", false);
--- Localize file must set above to false, for example:
---    local AL = AceLocale:NewLocale("Atlas_DungeonLocs", "deDE", false);
-if AL then
-	--Common
-	AL["Blue"] = "Blau";
-	AL["Dungeon Locations"] = "Instanz-Standorte";
-	AL["Green"] = "Grün";
-	AL["Instances"] = "Instanzen";
-	AL["White"] = "Weiß";
+local L = AceLocale:NewLocale("Atlas_DungeonLocs", "deDE", false);
+
+if L then
+--@localization(locale="deDE", format="lua_additive_table")@
 end

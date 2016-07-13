@@ -8,6 +8,13 @@ Copyright 2011 ~ 2016 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 = Change Log =
 ==============
 
+v1.32.02 (Jul. 13, 2016)
+------------------------
+- Added instance locations of Legion - Broken Isles
+- Translation now being managed on curseforge: http://wow.curseforge.com/addons/atlas-dungeon-locations/localization/
+- Added itIT, ptBR, and koKR translation files (placeholder until we get any translation added)
+
+
 v1.32.01 (May 17, 2016)
 -----------------------
 - Added dungeon info as tooptips
