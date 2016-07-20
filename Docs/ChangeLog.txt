@@ -11,7 +11,8 @@ Copyright 2011 ~ 2016 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 v1.33.01 (Jul. 21, 2016)
 ------------------------
 - Revamp Broke Isles map with better resolution
-
+- Translation update:
+  - German (pas06)
 
 v1.33.00 (Jul. 19, 2016)
 ------------------------
