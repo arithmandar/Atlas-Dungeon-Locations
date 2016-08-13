@@ -24,7 +24,14 @@
 
 --]]
 
-
+--[[ /////////////////////////////////////////
+ Atlas Map NPC Description Data
+ zoneID = {
+	{ ID or letter mark, encounterID or customizedID, x, y, x_largeMap, y_largeMap, color of the letter mark };
+	{ "A", 10001, 241, 460 };
+	{ 1, 1694, 373, 339 };
+ };
+/////////////////////////////////////////////]]
 local myDB = {
 	DLEast = {
 		{ " 1",  10001, 349, 6 }; -- Sunwell Plateau
@@ -126,18 +133,18 @@ local myDB = {
 		{ "1'", 10011, 460, 240 }; -- Ashran
 	};
 	DLBrokenIsles = {
-		{ " 1", 10001, 244, 338 }; --Assault on Violet Hold
-		{ " 2", 10002, 147, 375 }; --Vault of the Wardens
-		{ " 3", 10003, 238, 446 }; --Eye of Azshara
-		{ " 4", 10004, 113, 170 }; --Black Rook Hold
-		{ " 5", 10005, 150, 151 }; --The Emerald Nightmare
-		{ " 6", 10006, 159, 141 }; --Darkheart Thicket
-		{ " 7", 10007, 252, 146 }; --Neltharion's Lair
-		{ " 8", 10008, 339, 162 }; --Maw of Souls
-		{ " 9", 10009, 388, 200 }; --Halls of Valor
-		{ "10", 10010, 237, 261 }; --The Arcway
-		{ "11", 10011, 259, 257 }; --Court of Stars
-		{ "12", 10012, 247, 244 }; --The Nighthold
+		{ " 1", 10001, 238, 338, 490, 438, "Dungeon" }; -- Assault on Violet Hold
+		{ " 2", 10002, 142, 373, 361, 493, "Dungeon" }; -- Vault of the Wardens
+		{ " 3", 10003, 235, 443, 479, 580, "Dungeon" }; -- Eye of Azshara
+		{ " 4", 10004, 109, 170, 323, 227, "Dungeon" }; -- Black Rook Hold
+		{ " 5", 10005, 147, 150, 369, 207, "Raid" }; -- The Emerald Nightmare
+		{ " 6", 10006, 155, 141, 378, 190, "Dungeon" }; -- Darkheart Thicket
+		{ " 7", 10007, 248, 145, 502, 195, "Dungeon" }; -- Neltharion's Lair
+		{ " 8", 10008, 335, 162, 613, 211, "Dungeon" }; -- Maw of Souls
+		{ " 9", 10009, 383, 199, 675, 265, "Dungeon" }; -- Halls of Valor
+		{ "10", 10010, 235, 259, 491, 342, "Dungeon" }; -- The Arcway
+		{ "11", 10011, 255, 256, 515, 343, "Dungeon" }; -- Court of Stars
+		{ "12", 10012, 245, 244, 512, 320, "Raid" }; -- The Nighthold
 	};
 };
 

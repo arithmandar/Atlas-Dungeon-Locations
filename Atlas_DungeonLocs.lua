@@ -235,6 +235,7 @@ local myData = {
 	};
 	DLBrokenIsles = {
 		ZoneName = { BZ["Broken Isles"] };
+		LargeMap = "DLBrokenIsles";
 		{ WHIT.." 1) "..BZ["Assault on Violet Hold"]..ALC["Comma"].._RED..BZ["Dalaran"], 10001 };
 		{ WHIT.." 2) "..BZ["Vault of the Wardens"]..ALC["Comma"].._RED..BZ["Azsuna"], 10002 };
 		{ WHIT.." 3) "..BZ["Eye of Azshara"]..ALC["Comma"].._RED..BZ["Azsuna"], 10003 };
