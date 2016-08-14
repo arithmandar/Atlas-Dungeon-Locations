@@ -83,6 +83,7 @@ local myData = {
 	};
 	DLWest = {
 		ZoneName = { BZ["Kalimdor"] };
+		LargeMap = "DLWest";
 		{ WHIT.." 1) "..BZ["Firelands"]..ALC["Comma"].._RED..BZ["Mount Hyjal"], 10001 };
 		{ WHIT.." 2) "..BZ["Blackfathom Deeps"]..ALC["Comma"].._RED..BZ["Ashenvale"], 10002 };
 		{ WHIT.." 3) "..BZ["Ragefire Chasm"]..ALC["Comma"].._RED..BZ["Orgrimmar"], 10003 };

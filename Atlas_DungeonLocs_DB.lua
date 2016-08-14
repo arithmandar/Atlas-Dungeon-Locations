@@ -59,24 +59,24 @@ local myDB = {
 		{ " 3'", 10022, 177, 252 }; -- Tol Barad
 	};
 	DLWest = {
-		{ " 1",  10001, 304, 165 }; -- Firelands
-		{ " 2",  10002, 225, 164 }; -- Blackfathom Deeps
-		{ " 3",  10003, 335, 210 }; -- Ragefire Chasm
-		{ " 4",  10004, 285, 264 }; -- Wailing Caverns
-		{ " 5",  10005, 180, 277 }; -- Maraudon
-		{ " 6",  10006, 219, 326 }; -- Dire Maul
-		{ " 7",  10007, 278, 343 }; -- Razorfen Kraul
-		{ " 8",  10008, 296, 345 }; -- Razorfen Downs
-		{ " 9",  10009, 321, 348 }; -- Onyxia's Lair
-		{ "10",  10010, 305, 392 }; -- Zul'Farrak
-		{ "11",  10011, 340, 419 }; -- Caverns of Time
-		{ "12",  10012, 206, 425 }; -- Ahn'Qiraj
-		{ "13",  10013, 283, 464 }; -- Halls of Origination
-		{ "14",  10014, 269, 476 }; -- Lost City of the Tol'vir
-		{ "15",  10015, 239, 487 }; -- Throne of the Four Winds
-		{ "16",  10016, 290, 491 }; -- The Vortex Pinnacle
-		{ " 1'", 10017, 283, 217 }; -- Warsong Gulch
-		{ " 1'", 10017, 287, 227 }; -- Warsong Gulch
+		{  "1",  10001, 304, 165, 523, 224, "Raid" }; -- Firelands
+		{  "2",  10002, 225, 164, 431, 220, "Dungeon" }; -- Blackfathom Deeps
+		{  "3",  10003, 335, 210, 566, 281, "Dungeon" }; -- Ragefire Chasm
+		{  "4",  10004, 285, 264, 505, 357, "Dungeon" }; -- Wailing Caverns
+		{  "5",  10005, 180, 277, 370, 371, "Dungeon" }; -- Maraudon
+		{  "6",  10006, 219, 326, 422, 432, "Dungeon" }; -- Dire Maul
+		{  "7",  10007, 278, 343, 494, 449, "Dungeon" }; -- Razorfen Kraul
+		{  "8",  10008, 296, 345, 516, 480, "Dungeon" }; -- Razorfen Downs
+		{  "9",  10009, 321, 348, 551, 457, "Raid" }; -- Onyxia's Lair
+		{ "10",  10010, 305, 392, 527, 501, "Dungeon" }; -- Zul'Farrak
+		{ "11",  10011, 340, 419, 577, 551, "Raid" }; -- Caverns of Time
+		{ "12",  10012, 206, 425, 408, 555, "Raid" }; -- Ahn'Qiraj
+		{ "13",  10013, 283, 464, 500, 604, "Dungeon" }; -- Halls of Origination
+		{ "14",  10014, 269, 476, 486, 623, "Dungeon" }; -- Lost City of the Tol'vir
+		{ "15",  10015, 239, 487, 446, 635, "Raid" }; -- Throne of the Four Winds
+		{ "16",  10016, 290, 491, 509, 638, "Dungeon" }; -- The Vortex Pinnacle
+		{ " 1'", 10017, 283, 217, 507, 297, "Battlegrounds" }; -- Warsong Gulch
+		{ " 1'", 10017, 287, 227,  }; -- Warsong Gulch
 	};
 	DLOutland = {
 		{ " 1", 10001, 224, 78 }; -- Gruul's Lair

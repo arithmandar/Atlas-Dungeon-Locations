@@ -12,6 +12,7 @@ v1.34.00 (Aug. XX, 2016)
 ------------------------
 - Large size of map added:
   - Broken Isles
+  - Kalimdor
 
 v1.33.01 (Jul. 21, 2016)
 ------------------------
