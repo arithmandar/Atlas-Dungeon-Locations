@@ -10,4 +10,5 @@ ignore:
     - Images/PSD
     - Images/DLBrokenIsles/PSD
     - Images/DLWest/PSD
+    - Images/DLOutload/PSD
 

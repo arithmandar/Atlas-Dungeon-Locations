@@ -59,32 +59,31 @@ local myDB = {
 		{ " 3'", 10022, 177, 252 }; -- Tol Barad
 	};
 	DLWest = {
-		{  "1",  10001, 304, 165, 523, 224, "Raid" }; -- Firelands
-		{  "2",  10002, 225, 164, 431, 220, "Dungeon" }; -- Blackfathom Deeps
-		{  "3",  10003, 335, 210, 566, 281, "Dungeon" }; -- Ragefire Chasm
-		{  "4",  10004, 285, 264, 505, 357, "Dungeon" }; -- Wailing Caverns
-		{  "5",  10005, 180, 277, 370, 371, "Dungeon" }; -- Maraudon
-		{  "6",  10006, 219, 326, 422, 432, "Dungeon" }; -- Dire Maul
-		{  "7",  10007, 278, 343, 494, 449, "Dungeon" }; -- Razorfen Kraul
-		{  "8",  10008, 296, 345, 516, 480, "Dungeon" }; -- Razorfen Downs
-		{  "9",  10009, 321, 348, 551, 457, "Raid" }; -- Onyxia's Lair
-		{ "10",  10010, 305, 392, 527, 501, "Dungeon" }; -- Zul'Farrak
-		{ "11",  10011, 340, 419, 577, 551, "Raid" }; -- Caverns of Time
-		{ "12",  10012, 206, 425, 408, 555, "Raid" }; -- Ahn'Qiraj
-		{ "13",  10013, 283, 464, 500, 604, "Dungeon" }; -- Halls of Origination
-		{ "14",  10014, 269, 476, 486, 623, "Dungeon" }; -- Lost City of the Tol'vir
-		{ "15",  10015, 239, 487, 446, 635, "Raid" }; -- Throne of the Four Winds
-		{ "16",  10016, 290, 491, 509, 638, "Dungeon" }; -- The Vortex Pinnacle
-		{ " 1'", 10017, 283, 217, 507, 297, "Battlegrounds" }; -- Warsong Gulch
-		{ " 1'", 10017, 287, 227,  }; -- Warsong Gulch
+		{  "1",  10001, 280, 183, 523, 224, "Raid" }; -- Firelands
+		{  "2",  10002, 216, 183, 431, 220, "Dungeon" }; -- Blackfathom Deeps
+		{  "3",  10003, 312, 225, 566, 281, "Dungeon" }; -- Ragefire Chasm
+		{  "4",  10004, 265, 282, 505, 357, "Dungeon" }; -- Wailing Caverns
+		{  "5",  10005, 167, 291, 370, 371, "Dungeon" }; -- Maraudon
+		{  "6",  10006, 201, 339, 422, 432, "Dungeon" }; -- Dire Maul
+		{  "7",  10007, 257, 346, 494, 449, "Dungeon" }; -- Razorfen Kraul
+		{  "8",  10008, 274, 355, 516, 480, "Dungeon" }; -- Razorfen Downs
+		{  "9",  10009, 298, 354, 551, 457, "Raid" }; -- Onyxia's Lair
+		{ "10",  10010, 279, 386, 527, 501, "Dungeon" }; -- Zul'Farrak
+		{ "11",  10011, 315, 422, 577, 551, "Raid" }; -- Caverns of Time
+		{ "12",  10012, 194, 425, 408, 555, "Raid" }; -- Ahn'Qiraj
+		{ "13",  10013, 263, 459, 500, 604, "Dungeon" }; -- Halls of Origination
+		{ "14",  10014, 254, 471, 486, 623, "Dungeon" }; -- Lost City of the Tol'vir
+		{ "15",  10015, 223, 483, 446, 635, "Raid" }; -- Throne of the Four Winds
+		{ "16",  10016, 271, 485, 509, 638, "Dungeon" }; -- The Vortex Pinnacle
+		{ " 1'", 10017, 269, 236, 507, 297, "Battlegrounds" }; -- Warsong Gulch
 	};
 	DLOutland = {
-		{ " 1", 10001, 224, 78 }; -- Gruul's Lair
-		{ " 2", 10002, 410, 102 }; -- Tempest Keep
-		{ " 3", 10003, 146, 219 }; -- Coilfang Reservoir
-		{ " 4", 10004, 324, 259 }; -- Hellfire Citadel
-		{ " 5", 10005, 239, 400 }; -- Auchindoun
-		{ " 6", 10006, 449, 411 }; -- Black Temple
+		{ " 1", 10001, 224,  78, 424, 116, "Raid" }; -- Gruul's Lair
+		{ " 2", 10002, 410, 102, 659, 148, "Raid" }; -- Tempest Keep
+		{ " 3", 10003, 146, 219, 336, 292, "Raid" }; -- Coilfang Reservoir
+		{ " 4", 10004, 324, 259, 555, 340, "Raid" }; -- Hellfire Citadel
+		{ " 5", 10005, 239, 400, 448, 515, "Raid" }; -- Auchindoun
+		{ " 6", 10006, 449, 411, 714, 529, "Raid" }; -- Black Temple
 	};
 	DLNorthrend = {
 		{ " 1",  10001, 307, 114 }; -- Ulduar

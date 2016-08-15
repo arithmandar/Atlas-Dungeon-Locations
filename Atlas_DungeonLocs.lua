@@ -117,6 +117,7 @@ local myData = {
 	};
 	DLOutland = {
 		ZoneName = { BZ["Outland"] };
+		LargeMap = "DLOutland";
 		{ WHIT.." 1) "..BZ["Gruul's Lair"]..ALC["Comma"].._RED..BZ["Blade's Edge Mountains"], 10001 };
 		{ WHIT.." 2) "..BZ["Tempest Keep"]..ALC["Comma"].._RED..BZ["Netherstorm"], 10002 };
 		{ WHIT..INDENT..BZ["The Mechanar"] };
