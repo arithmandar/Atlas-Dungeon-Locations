@@ -44,6 +44,7 @@ local myCategory = L["Dungeon Locations"];
 local myData = {
 	DLEast = {
 		ZoneName = { BZ["Eastern Kingdoms"] };
+		LargeMap = "DLEast";
 		{ WHIT.." 1) "..BZ["Sunwell Plateau"]..ALC["Comma"].._RED..BZ["Isle of Quel'Danas"], 10001 };
 		{ WHIT.." 2) "..BZ["Magisters' Terrace"]..ALC["Comma"].._RED..BZ["Isle of Quel'Danas"], 10002 };
 		{ WHIT.." 3) "..BZ["Zul'Aman"]..ALC["Comma"].._RED..BZ["Ghostlands"], 10003 };
@@ -143,6 +144,7 @@ local myData = {
 	};
 	DLNorthrend = {
 		ZoneName = { BZ["Northrend"] };
+		LargeMap = "DLNorthrend";
 		{ WHIT.." 1) "..BZ["Ulduar"]..ALC["Comma"].._RED..BZ["The Storm Peaks"], 10001 };
 		{ WHIT..INDENT..BZ["Ulduar"] };
 		{ WHIT..INDENT..BZ["Halls of Stone"] };
@@ -185,6 +187,7 @@ local myData = {
 	};
 	DLPandaria = {
 		ZoneName = { BZ["Pandaria"] };
+		LargeMap = "DLPandaria";
 		{ WHIT.." 1) "..BZ["Throne of Thunder"]..ALC["Comma"].._RED..BZ["Isle of Thunder"], 10001 };
 		{ WHIT.." 2) "..BZ["Shado-Pan Monastery"]..ALC["Comma"].._RED..BZ["Kun-Lai Summit"], 10002 };
 		{ WHIT.." 3) "..BZ["Mogu'shan Vaults"]..ALC["Comma"].._RED..BZ["Kun-Lai Summit"], 10003 };
@@ -206,11 +209,15 @@ local myData = {
 		{ "" };
 		{ "" };
 		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
 		{ WHIT..L["White"]..ALC["Colon"]..ORNG..L["Instances"] };
 		{ GREN..L["Green"]..ALC["Colon"]..ORNG..BATTLEGROUNDS };
 	};
 	DLDraenor = {
 		ZoneName = { BZ["Draenor"] };
+		LargeMap = "DLDraenor";
 		{ WHIT.." 1) "..BZ["Iron Docks"]..ALC["Comma"].._RED..BZ["Gorgrond"], 10001 };
 		{ WHIT.." 2) "..BZ["Blackrock Foundry"]..ALC["Comma"].._RED..BZ["Gorgrond"], 10002 };
 		{ WHIT.." 3) "..BZ["Grimrail Depot"]..ALC["Comma"].._RED..BZ["Gorgrond"], 10003 };
@@ -222,6 +229,9 @@ local myData = {
 		{ WHIT.." 9) "..BZ["Skyreach"]..ALC["Comma"].._RED..BZ["Spires of Arak"], 10009 };
 		{ WHIT.."10) "..BZ["Hellfire Citadel"]..ALC["Comma"].._RED..BZ["Tanaan Jungle"], 10010 };
 		{ GREN.." 1') "..BZ["Ashran"]..ALC["Comma"].._RED..BZ["Ashran"], 10011 };
+		{ "" };
+		{ "" };
+		{ "" };
 		{ "" };
 		{ "" };
 		{ "" };
@@ -260,8 +270,11 @@ local myData = {
 		{ "" };
 		{ "" };
 		{ "" };
-		{ WHIT..L["White"]..ALC["Colon"]..ORNG..L["Instances"] };
-		--{ GREN..L["Green"]..ALC["Colon"]..ORNG..BATTLEGROUNDS };
+		{ "" };
+		{ "" };
+		{ "" };
+--		{ WHIT..L["White"]..ALC["Colon"]..ORNG..L["Instances"] };
+--		{ GREN..L["Green"]..ALC["Colon"]..ORNG..BATTLEGROUNDS };
 	};
 };
 

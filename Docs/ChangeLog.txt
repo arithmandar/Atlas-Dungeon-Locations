@@ -16,6 +16,10 @@ v1.34.00 (Aug. XX, 2016)
   - Broken Isles
   - Kalimdor
   - Outland
+  - Northrend
+  - Draenor
+  - Pandaria
+  - Azeroth
 
 v1.33.01 (Jul. 21, 2016)
 ------------------------
