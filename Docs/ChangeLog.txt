@@ -8,7 +8,7 @@ Copyright 2011 ~ 2016 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 = Change Log =
 ==============
 
-v1.34.00 (Aug. XX, 2016)
+v1.34.00 (Aug. 31, 2016)
 ------------------------
 - Map revamped:
   - Kalimdor
@@ -21,12 +21,14 @@ v1.34.00 (Aug. XX, 2016)
   - Pandaria
   - Azeroth
 
+  
 v1.33.01 (Jul. 21, 2016)
 ------------------------
 - Revamp Broke Isles map with better resolution
 - Translation update:
   - German (pas06)
 
+  
 v1.33.00 (Jul. 19, 2016)
 ------------------------
 - Toc updated to support WoW Legion pre-patch (7.0.3)
