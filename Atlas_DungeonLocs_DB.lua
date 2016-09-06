@@ -135,10 +135,11 @@ local myDB = {
 		{ "1",  10001, 238, 338, 490, 438, "Dungeon" }; -- Assault on Violet Hold
 		{ "2",  10002, 142, 373, 361, 493, "Dungeon" }; -- Vault of the Wardens
 		{ "3",  10003, 235, 443, 479, 580, "Dungeon" }; -- Eye of Azshara
+		{ "3'", 100031, 181, 299, 412, 393, "White" }; -- Eye of Azshara meeting stone
 		{ "4",  10004, 109, 170, 323, 227, "Dungeon" }; -- Black Rook Hold
 		{ "5",  10005, 147, 150, 369, 207, "Raid" }; -- The Emerald Nightmare
 		{ "6",  10006, 155, 141, 378, 190, "Dungeon" }; -- Darkheart Thicket
-		{ "7",  10007, 248, 145, 502, 195, "Dungeon" }; -- Neltharion's Lair
+		{ "7",  10007, 257, 146, 511, 193, "Dungeon" }; -- Neltharion's Lair
 		{ "8",  10008, 335, 162, 613, 211, "Dungeon" }; -- Maw of Souls
 		{ "9",  10009, 383, 199, 675, 265, "Dungeon" }; -- Halls of Valor
 		{ "10", 10010, 235, 259, 491, 342, "Dungeon" }; -- The Arcway

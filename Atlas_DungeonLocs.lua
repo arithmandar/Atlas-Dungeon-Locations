@@ -251,6 +251,7 @@ local myData = {
 		{ WHIT.." 1) "..BZ["Assault on Violet Hold"]..ALC["Comma"].._RED..BZ["Dalaran"], 10001 };
 		{ WHIT.." 2) "..BZ["Vault of the Wardens"]..ALC["Comma"].._RED..BZ["Azsuna"], 10002 };
 		{ WHIT.." 3) "..BZ["Eye of Azshara"]..ALC["Comma"].._RED..BZ["Azsuna"], 10003 };
+		{ INDENT.." 3') "..BZ["Eye of Azshara"]..ALC["Hyphen"]..ALC["Meeting Stone"], 100031 };
 		{ WHIT.." 4) "..BZ["Black Rook Hold"]..ALC["Comma"].._RED..BZ["Val'sharah"], 10004 };
 		{ WHIT.." 5) "..BZ["The Emerald Nightmare"]..ALC["Comma"].._RED..BZ["Val'sharah"], 10005 };
 		{ WHIT.." 6) "..BZ["Darkheart Thicket"]..ALC["Comma"].._RED..BZ["Val'sharah"], 10006 };
@@ -260,7 +261,6 @@ local myData = {
 		{ WHIT.."10) "..BZ["The Arcway"]..ALC["Comma"].._RED..BZ["Suramar"], 10010 };
 		{ WHIT.."11) "..BZ["Court of Stars"]..ALC["Comma"].._RED..BZ["Suramar"], 10011 };
 		{ WHIT.."12) "..BZ["The Nighthold"]..ALC["Comma"].._RED..BZ["Suramar"], 10012 };
-		{ "" };
 		{ "" };
 		{ "" };
 		{ "" };
