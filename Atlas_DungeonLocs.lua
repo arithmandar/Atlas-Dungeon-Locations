@@ -251,7 +251,7 @@ local myData = {
 		{ WHIT.." 1) "..BZ["Assault on Violet Hold"]..ALC["Comma"].._RED..BZ["Dalaran"], 10001 };
 		{ WHIT.." 2) "..BZ["Vault of the Wardens"]..ALC["Comma"].._RED..BZ["Azsuna"], 10002 };
 		{ WHIT.." 3) "..BZ["Eye of Azshara"]..ALC["Comma"].._RED..BZ["Azsuna"], 10003 };
-		{ INDENT.." 3') "..BZ["Eye of Azshara"]..ALC["Hyphen"]..ALC["Meeting Stone"], 100031 };
+		{ INDENT.." 3') "..BZ["Eye of Azshara"]..ALC["Hyphen"]..ALC["Meeting Stone"], 100031 }; -- Eye of Azshara's meeting stone is a bit far away from the dungeon's actual location
 		{ WHIT.." 4) "..BZ["Black Rook Hold"]..ALC["Comma"].._RED..BZ["Val'sharah"], 10004 };
 		{ WHIT.." 5) "..BZ["The Emerald Nightmare"]..ALC["Comma"].._RED..BZ["Val'sharah"], 10005 };
 		{ WHIT.." 6) "..BZ["Darkheart Thicket"]..ALC["Comma"].._RED..BZ["Val'sharah"], 10006 };
