@@ -34,4 +34,7 @@ if L then
 	L["Green"] = "Green";
 	L["Instances"] = "Instances";
 	L["White"] = "White";
+	-- Broken Isles
+	L["Meeting stone is inside the Sanctum of Order"] = "Meeting stone is inside the Sanctum of Order";
+	L["Raid entrance is inside the Sanctum Depths of Sanctum of Order"] = "Raid entrance is inside the Sanctum Depths of Sanctum of Order";
 end

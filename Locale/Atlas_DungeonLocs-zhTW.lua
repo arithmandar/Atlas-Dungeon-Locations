@@ -35,6 +35,9 @@ if L then
 	L["Green"] = "綠";
 	L["Instances"] = "副本";
 	L["White"] = "白";
+	-- Broken Isles
+	L["Meeting stone is inside the Sanctum of Order"] = "集合石在秩序聖所裡";
+	L["Raid entrance is inside the Sanctum Depths of Sanctum of Order"] = "團隊副本入口在秩序聖所裡的聖所深處";
 --@end-do-not-package@
 --@localization(locale="zhTW", format="lua_additive_table")@
 end
