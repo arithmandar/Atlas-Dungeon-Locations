@@ -8,6 +8,11 @@ Copyright 2011 ~ 2016 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 = Change Log =
 ==============
 
+v1.35.00 (Oct. 27, 2016)
+------------------------
+- Toc update to support WoW 7.1.0
+
+
 v1.34.04 (Oct. 19, 2016)
 ------------------------
 - Remove Broken Isles' PVP areas' faction info as it's rotated
