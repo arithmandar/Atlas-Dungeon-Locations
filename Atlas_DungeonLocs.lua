@@ -4,7 +4,7 @@
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005 ~ 2010 - Dan Gilbert <dan.b.gilbertat gmail dot com>
 	Copyright 2010 - Lothaer <lothayerat gmail dot com>, Atlas Team
-	Copyright 2011 ~ 2019 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
+	Copyright 2011 ~ 2020 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
 
 	This file is part of Atlas.
 
@@ -252,37 +252,67 @@ local myData = {
 		{ GREN..L["Green"]..ALC["Colon"]..ORNG..BATTLEGROUNDS },
 	},
 	DLBrokenIsles = {
-		ZoneName = { BZ["Broken Isles"] };
-		LargeMap = "DLBrokenIsles";
-		{ WHIT.." 1) "..BZ["Assault on Violet Hold"]..ALC["Comma"].._RED..BZ["Dalaran"]..GREY.." (66.7, 68.3)", 10001 };
-		{ WHIT.." 2) "..BZ["Vault of the Wardens"]..ALC["Comma"].._RED..BZ["Azsuna"]..GREY.." (48.2, 82.7)", 10002 };
-		{ WHIT.." 3) "..BZ["Eye of Azshara"]..ALC["Comma"].._RED..BZ["Azsuna"], 10003 };
-		{ INDENT.." 3') "..BZ["Eye of Azshara"]..ALC["Hyphen"]..ALC["Meeting Stone"]..ALC["Comma"].._RED..BZ["Hatecoil Warcamp"]..GREY.." (61.2, 41.1)", 100031 }; -- Eye of Azshara's meeting stone is a bit far away from the dungeon's actual location
-		{ WHIT.." 4) "..BZ["Black Rook Hold"]..ALC["Comma"].._RED..BZ["Val'sharah"]..GREY.." (38.6, 51.3)", 10004 };
-		{ WHIT.." 5) "..BZ["The Emerald Nightmare"]..ALC["Comma"].._RED..BZ["Val'sharah"]..GREY.." (55.6, 38.0)", 10005 };
-		{ WHIT.." 6) "..BZ["Darkheart Thicket"]..ALC["Comma"].._RED..BZ["Val'sharah"]..GREY.." (59.0, 32.4)", 10006 };
-		{ WHIT.." 7) "..BZ["Neltharion's Lair"]..ALC["Comma"].._RED..BZ["Highmountain"]..GREY.." (49.7, 68.5)", 10007 };
-		{ WHIT.." 8) "..BZ["Maw of Souls"]..ALC["Comma"].._RED..BZ["Stormheim"]..GREY.." (52.7, 46.3)", 10008 };
-		{ WHIT.." 9) "..BZ["Halls of Valor"]..ALC["Comma"].._RED..BZ["Stormheim"]..GREY.." (71.9, 71.7)", 10009 };
-		{ WHIT.."10) "..BZ["The Arcway"]..ALC["Comma"].._RED..BZ["Suramar"]..GREY.." (42.6, 61.4)", 10010 };
-		{ INDENT..GREY..ALC["L-Parenthesis"]..L["Meeting stone is inside the Sanctum of Order"]..ALC["R-Parenthesis"].." (45.9, 64.5)" };
-		{ WHIT.."11) "..BZ["Court of Stars"]..ALC["Comma"].._RED..BZ["Suramar"]..GREY.." (50.4, 65.9)", 10011 };
-		{ WHIT.."12) "..BZ["The Nighthold"]..ALC["Comma"].._RED..BZ["Suramar"]..GREY.." (44.1, 59.8)", 10012 };
-		{ INDENT..GREY..ALC["L-Parenthesis"]..L["Raid entrance is inside the Sanctum Depths of Sanctum of Order"]..ALC["R-Parenthesis"].." (45.9, 64.5)" };
-		{ WHIT.."13) "..BZ["Cathedral of Eternal Night"]..ALC["Comma"].._RED..BZ["Broken Shore"]..GREY.." (63.1, 18.5)", 10013 };
-		{ WHIT.."14) "..BZ["Tomb of Sargeras"]..ALC["Comma"].._RED..BZ["Broken Shore"]..GREY.." (63.8, 21.1)", 10014 };
-		{ "" };
-		{ GREN.." 1) "..BZ["Darkfollow's Spire"]..GREY..ALC["Comma"].._RED..BZ["Val'sharah"]..GREY.." (37.7, 73.2)", 10101 };
-		{ GREN.." 2) "..BZ["Starstalker's Point"]..GREY..ALC["Comma"].._RED..BZ["Val'sharah"]..GREY.." (33.6, 40.7)", 10102 };
-		{ GREN.." 3) "..BZ["Black Rook Hold Arena"]..GREY..ALC["Comma"].._RED..BZ["Val'sharah"]..GREY.." (42.4, 48.8)", 10103 };
-		{ GREN.." 4) "..BZ["Nightwatcher's Perch"]..GREY..ALC["Comma"].._RED..BZ["Highmountain"]..GREY.." (25.6, 54.2)", 10104 };
-		{ GREN.." 5) "..BZ["Cordana's Apex"]..GREY..ALC["Comma"].._RED..BZ["Stormheim"]..GREY.." (61.2, 56.4)", 10105 };
-		{ GREN.." 6) "..BZ["Whisperwind's Citadel"]..GREY..ALC["Comma"].._RED..BZ["Stormheim"]..GREY.." (48.4, 20.7)", 10106 };
-		{ GREN.." 7) "..BZ["Blackhawk's Bulwark"]..GREY..ALC["Comma"].._RED..BZ["Stormheim"]..GREY.." (61.2, 89.7)", 10107 };
-		{ "" };
-		{ WHIT..L["White"]..ALC["Colon"]..ORNG..L["Instances"] };
-		{ GREN..L["Green"]..ALC["Colon"]..ORNG..PVP };
-	};
+		ZoneName = { BZ["Broken Isles"] },
+		LargeMap = "DLBrokenIsles",
+		{ WHIT.." 1) "..BZ["Assault on Violet Hold"]..ALC["Comma"].._RED..BZ["Dalaran"]..GREY.." (66.7, 68.3)", 10001 },
+		{ WHIT.." 2) "..BZ["Vault of the Wardens"]..ALC["Comma"].._RED..BZ["Azsuna"]..GREY.." (48.2, 82.7)", 10002 },
+		{ WHIT.." 3) "..BZ["Eye of Azshara"]..ALC["Comma"].._RED..BZ["Azsuna"], 10003 },
+		{ INDENT.." 3') "..BZ["Eye of Azshara"]..ALC["Hyphen"]..ALC["Meeting Stone"]..ALC["Comma"].._RED..BZ["Hatecoil Warcamp"]..GREY.." (61.2, 41.1)", 100031 }, -- Eye of Azshara's meeting stone is a bit far away from the dungeon's actual location
+		{ WHIT.." 4) "..BZ["Black Rook Hold"]..ALC["Comma"].._RED..BZ["Val'sharah"]..GREY.." (38.6, 51.3)", 10004 },
+		{ WHIT.." 5) "..BZ["The Emerald Nightmare"]..ALC["Comma"].._RED..BZ["Val'sharah"]..GREY.." (55.6, 38.0)", 10005 },
+		{ WHIT.." 6) "..BZ["Darkheart Thicket"]..ALC["Comma"].._RED..BZ["Val'sharah"]..GREY.." (59.0, 32.4)", 10006 },
+		{ WHIT.." 7) "..BZ["Neltharion's Lair"]..ALC["Comma"].._RED..BZ["Highmountain"]..GREY.." (49.7, 68.5)", 10007 },
+		{ WHIT.." 8) "..BZ["Maw of Souls"]..ALC["Comma"].._RED..BZ["Stormheim"]..GREY.." (52.7, 46.3)", 10008 },
+		{ WHIT.." 9) "..BZ["Halls of Valor"]..ALC["Comma"].._RED..BZ["Stormheim"]..GREY.." (71.9, 71.7)", 10009 },
+		{ WHIT.."10) "..BZ["The Arcway"]..ALC["Comma"].._RED..BZ["Suramar"]..GREY.." (42.6, 61.4)", 10010 },
+		{ INDENT..GREY..ALC["L-Parenthesis"]..L["Meeting stone is inside the Sanctum of Order"]..ALC["R-Parenthesis"].." (45.9, 64.5)" },
+		{ WHIT.."11) "..BZ["Court of Stars"]..ALC["Comma"].._RED..BZ["Suramar"]..GREY.." (50.4, 65.9)", 10011 },
+		{ WHIT.."12) "..BZ["The Nighthold"]..ALC["Comma"].._RED..BZ["Suramar"]..GREY.." (44.1, 59.8)", 10012 },
+		{ INDENT..GREY..ALC["L-Parenthesis"]..L["Raid entrance is inside the Sanctum Depths of Sanctum of Order"]..ALC["R-Parenthesis"].." (45.9, 64.5)" },
+		{ WHIT.."13) "..BZ["Cathedral of Eternal Night"]..ALC["Comma"].._RED..BZ["Broken Shore"]..GREY.." (63.1, 18.5)", 10013 },
+		{ WHIT.."14) "..BZ["Tomb of Sargeras"]..ALC["Comma"].._RED..BZ["Broken Shore"]..GREY.." (63.8, 21.1)", 10014 },
+		{ "" },
+		{ GREN.." 1) "..BZ["Darkfollow's Spire"]..GREY..ALC["Comma"].._RED..BZ["Val'sharah"]..GREY.." (37.7, 73.2)", 10101 },
+		{ GREN.." 2) "..BZ["Starstalker's Point"]..GREY..ALC["Comma"].._RED..BZ["Val'sharah"]..GREY.." (33.6, 40.7)", 10102 },
+		{ GREN.." 3) "..BZ["Black Rook Hold Arena"]..GREY..ALC["Comma"].._RED..BZ["Val'sharah"]..GREY.." (42.4, 48.8)", 10103 },
+		{ GREN.." 4) "..BZ["Nightwatcher's Perch"]..GREY..ALC["Comma"].._RED..BZ["Highmountain"]..GREY.." (25.6, 54.2)", 10104 },
+		{ GREN.." 5) "..BZ["Cordana's Apex"]..GREY..ALC["Comma"].._RED..BZ["Stormheim"]..GREY.." (61.2, 56.4)", 10105 },
+		{ GREN.." 6) "..BZ["Whisperwind's Citadel"]..GREY..ALC["Comma"].._RED..BZ["Stormheim"]..GREY.." (48.4, 20.7)", 10106 },
+		{ GREN.." 7) "..BZ["Blackhawk's Bulwark"]..GREY..ALC["Comma"].._RED..BZ["Stormheim"]..GREY.." (61.2, 89.7)", 10107 },
+		{ "" },
+		{ WHIT..L["White"]..ALC["Colon"]..ORNG..L["Instances"] },
+		{ GREN..L["Green"]..ALC["Colon"]..ORNG..PVP },
+	},
+	DLArgus = {
+		ZoneName = { BZ["Argus"] },
+		LargeMap = "DLArgus",
+		{ WHIT.." 1) "..BZ["The Seat of the Triumvirate"]..ALC["Comma"].._RED..BZ["Mac'Aree"], 10001 },
+		{ WHIT.." 2) "..BZ["Antorus, the Burning Throne"]..ALC["Comma"].._RED..BZ["Antoran Wastes"], 10002 },
+	},
+	DLKulTiras = {
+		ZoneName = { BZ["Kul Tiras"] },
+		{ WHIT.." 1) "..BZ["Tol Dagor"]..GREY..ALC["Comma"].._RED..BZ["Tol Dagor"], 10001 },
+		{ WHIT.." 2) "..BZ["Freehold"]..GREY..ALC["Comma"].._RED..BZ["Tiragarde Sound"], 10002 },
+		{ WHIT.." 3) "..BZ["Siege of Boralus"]..GREY..ALC["Comma"].._RED..BZ["Tiragarde Sound"], 10003 },
+		{ WHIT.." 4) "..BZ["Battle of Dazar'alor"]..GREY..ALC["Comma"].._RED..BZ["Tiragarde Sound"], 10004 },
+		{ WHIT.." 5) "..BZ["Waycrest Manor"]..GREY..ALC["Comma"].._RED..BZ["Drustvar"], 10005 },
+		{ WHIT.." 6) "..BZ["Operation: Mechagon"]..GREY..ALC["Comma"].._RED..BZ["Mechagon"], 10006 },
+		{ WHIT.." 7) "..BZ["Shrine of the Storm"]..GREY..ALC["Comma"].._RED..BZ["Stormsong Valley"], 10007 },
+		{ WHIT.." 8) "..BZ["Crucible of Storms"]..GREY..ALC["Comma"].._RED..BZ["Stormsong Valley"], 10008 },
+	},
+	DLZuldazar = {
+		ZoneName = { BZ["Zuldazar"] },
+		{ WHIT.." 1) "..BZ["The MOTHERLODE!!"]..GREY..ALC["Comma"].._RED..BZ["Zuldazar"], 10001 },
+		{ WHIT.." 2) "..BZ["Atal'Dazar"]..GREY..ALC["Comma"].._RED..BZ["Zuldazar"], 10002 },
+		{ WHIT.." 3) "..BZ["Kings' Rest"]..GREY..ALC["Comma"].._RED..BZ["Zuldazar"], 10003 },
+		{ WHIT.." 4) "..BZ["Temple of Sethraliss"]..GREY..ALC["Comma"].._RED..BZ["Vol'dun"], 10004 },
+		{ WHIT.." 5) "..BZ["The Underrot"]..GREY..ALC["Comma"].._RED..BZ["Nazmir"], 10005 },
+		{ WHIT.." 6) "..BZ["Uldir"]..GREY..ALC["Comma"].._RED..BZ["Nazmir"], 10006 },
+	},
+	DLNazjatar = {
+		ZoneName = { BZ["Nazjatar"] },
+		{ WHIT.." 1) "..BZ["The Eternal Palace"]..GREY..ALC["Comma"].._RED..BZ["Nazjatar"], 10001 },
+	},
 }
 
 --[[ /////////////////////////////////////////
@@ -415,6 +445,31 @@ local myDB = {
 		{ "5",  10105, 281, 121, 543, 174, "PvP" }, 
 		{ "6",  10106, 329, 120, 608, 167, "PvP" }, 
 		{ "7",  10107, 368, 235, 649, 318, "PvP" }, 
+	},
+	DLArgus = {
+		{ 1, 10001, 254, 134, 663, 190, "Dungeon" },
+		{ 2, 10002, 123, 328, 280, 305, "Raid" },
+	},
+	DLKulTiras = {
+		{ 1, 10001, 477, 307 },
+		{ 2, 10002, 406, 395 },
+		{ 3, 10003, 369, 248 },
+		{ 4, 10004, 363, 267 },
+		{ 5, 10005, 146, 277 },
+		{ 6, 10006, 64, 149 },
+		{ 7, 10007, 389, 86 },
+		{ 8, 10008, 411, 124 },
+	},
+	DLZuldazar = {
+		{ 1, 10001, 223, 416 },
+		{ 2, 10002, 271, 316 },
+		{ 3, 10003, 234, 312 },
+		{ 4, 10004, 175, 81 },
+		{ 5, 10005, 299, 192 },
+		{ 6, 10006, 313, 174 },
+	},
+	DLNazjatar = {
+		{ 1, 10001, 211, 60 },
 	},
 }
 
