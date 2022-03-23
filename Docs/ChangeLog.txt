@@ -8,6 +8,14 @@ Copyright 2011 ~ 2022 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
 = Change Log =
 ==============
 
+v1.50.02 (Mar. 23, 2022)
+------------------------
+- Revamp BCC's dungeon maps and add the following dungeons' locations
+  - Magisters' Terrace
+  - Sunwell Plateau
+  - Karazhan
+  - Caverns of Time: Old Hillsbrad Foothills, The Black Morass, Hyjal Summit
+
 v1.50.01 (Mar. 23, 2022)
 ------------------------
 - BCC ToC update to support WoW 2.5.4
