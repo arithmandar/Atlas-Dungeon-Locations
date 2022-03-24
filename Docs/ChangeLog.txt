@@ -8,6 +8,12 @@ Copyright 2011 ~ 2022 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
 = Change Log =
 ==============
 
+v1.50.03 (Mar. 24, 2022)
+------------------------
+- Added Horde's dungeon location maps in Zandalar and Kul Tiras
+- Added Shadowlands' dungeon location maps
+- Added option toggling for Transportation maps, allowing you to show only your faction's taxi maps, or show all factions' maps.
+
 v1.50.02 (Mar. 23, 2022)
 ------------------------
 - Revamp BCC's dungeon maps and add the following dungeons' locations

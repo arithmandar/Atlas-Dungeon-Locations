@@ -37,4 +37,7 @@ if L then
 	-- Broken Isles
 	L["Meeting stone is inside the Sanctum of Order"] = "Meeting stone is inside the Sanctum of Order";
 	L["Raid entrance is inside the Sanctum Depths of Sanctum of Order"] = "Raid entrance is inside the Sanctum Depths of Sanctum of Order";
+	-- Config
+	L["Show %s's dungeon location maps"] = "Show %s's dungeon location maps"
+	L["Change will take effect after next login; or type '/reload' command to reload addon"] = "Change will take effect after next login; or type '/reload' command to reload addon"
 end
