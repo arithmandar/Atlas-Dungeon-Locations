@@ -57,6 +57,10 @@ local ALAN = "|cff7babe0" -- Alliance
 local HRDE = "|cffda6955" -- Horde
 local INDENT = "      "
 
+alliance.maps = {}
+alliance.coords = {}
+horde.maps = {}
+horde.coords = {}
 
 data.maps = {
 	DLEast_Classic = {

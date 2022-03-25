@@ -38,6 +38,9 @@ if L then
 	-- Broken Isles
 	L["Meeting stone is inside the Sanctum of Order"] = "集合石在秩序聖所裡";
 	L["Raid entrance is inside the Sanctum Depths of Sanctum of Order"] = "團隊副本入口在秩序聖所裡的聖所深處";
+	-- Config
+	L["Show %s's dungeon location maps"] = "顯示%s陣營的副本位置圖"
+	L["Change will take effect after next login; or type '/reload' command to reload addon"] = "變更會在下次登入後生效；或輸入 /reload 指令重新載入插件"
 --@end-do-not-package@
 --@localization(locale="zhTW", format="lua_additive_table")@
 end
