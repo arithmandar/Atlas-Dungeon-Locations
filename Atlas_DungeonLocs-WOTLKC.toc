@@ -1,4 +1,4 @@
-﻿## Interface: 90205
+﻿## Interface: 30400
 #@non-debug@
 ## Title: @localization(locale="enUS", key="Title", namespace="ToC")@
 ## Title-deDE: @localization(locale="deDE", key="Title", namespace="ToC")@
@@ -43,4 +43,4 @@ Locale\Locales.xml
 Core\Constants.lua
 Core\Core.lua
 Core\Config.lua
-Core\Data.lua
+Core\Data-BCC.lua
