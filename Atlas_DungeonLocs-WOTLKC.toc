@@ -43,4 +43,4 @@ Locale\Locales.xml
 Core\Constants.lua
 Core\Core.lua
 Core\Config.lua
-Core\Data-BCC.lua
+Core\Data-WOTLKC.lua
