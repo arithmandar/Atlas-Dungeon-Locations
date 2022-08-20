@@ -137,7 +137,7 @@ data.maps = {
 		{ WHIT..INDENT..BZ["Sethekk Halls"] },
 		{ WHIT..INDENT..BZ["Shadow Labyrinth"] },
 		{ WHIT.." 6) "..BZ["Black Temple"]..ALC["Comma"].._RED..BZ["Shadowmoon Valley"], 10006 },
-	}
+	},
 	DLNorthrend = {
 		ZoneName = { BZ["Northrend"] },
 		LargeMap = "DLNorthrend",
@@ -176,7 +176,7 @@ data.maps = {
 		{ "" },
 		{ WHIT..L["White"]..ALC["Colon"]..ORNG..L["Instances"] },
 		{ GREN..L["Green"]..ALC["Colon"]..ORNG..BATTLEGROUNDS },
-	},
+	}
 }
 
 data.coords = {
@@ -194,5 +194,5 @@ data.coords = {
 		{ "11",  10011, 309, 287, 586, 399, "Raid" }, -- Naxxramas
 		{ "12",  10012, 432, 377, 786, 546, "Dungeon" }, -- Utgarde Keep
 		{ "1'",  10013, 176, 268, 356, 340, "Battlegrounds" }, -- Wintergrasp
-	},
+	}
 }
