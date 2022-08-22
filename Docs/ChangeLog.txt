@@ -8,6 +8,10 @@ Copyright 2011 ~ 2022 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
 = Change Log =
 ==============
 
+v1.51.06 (Aug. 22, 2022)
+------------------------
+- BCC / WOLTKC Caverns of Time number fixed
+
 v1.51.05 (Aug. 22, 2022)
 ------------------------
 - BCC / WOLTKC Caverns of Time number fixed
