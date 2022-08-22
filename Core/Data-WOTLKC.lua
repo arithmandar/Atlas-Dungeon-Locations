@@ -72,12 +72,11 @@ data.maps = {
 		{ WHIT.." 2) "..BZ["Zul'Aman"]..ALC["Comma"].._RED..BZ["Ghostlands"], 10005 },
 		{ WHIT.." 3) "..BZ["Scarlet Monastery"]..ALC["Comma"].._RED..BZ["Tirisfal Glades"], 10006 },
 		{ WHIT.." 4) "..BZ["Stratholme"]..ALC["Comma"].._RED..BZ["Eastern Plaguelands"], 10007 },
-		{ WHIT..INDENT..BZ["Naxxramas"]..ALC["Comma"].._RED..BZ["Stratholme"], 10008 },
 		{ WHIT.." 5) "..BZ["Scholomance"]..ALC["Comma"].._RED..BZ["Western Plaguelands"], 10009 },
 		{ WHIT.." 6) "..BZ["Shadowfang Keep"]..ALC["Comma"].._RED..BZ["Silverpine Forest"], 10010 },
 		{ WHIT.." 7) "..BZ["Gnomeregan"]..ALC["Comma"].._RED..BZ["Dun Morogh"], 10011 },
 		{ WHIT.." 8) "..BZ["Uldaman"]..ALC["Comma"].._RED..BZ["Badlands"], 10012 },
-		{ WHIT.." 7) "..BZ["Blackrock Mountain"]..ALC["Comma"].._RED..BZ["Searing Gorge"]..ALC["Slash"]..BZ["Burning Steppes"], 10013 },
+		{ WHIT.." 9) "..BZ["Blackrock Mountain"]..ALC["Comma"].._RED..BZ["Searing Gorge"]..ALC["Slash"]..BZ["Burning Steppes"], 10013 },
 		{ WHIT..INDENT..BZ["Blackrock Depths"], 10014 },
 		{ WHIT..INDENT..BZ["Blackrock Spire"], 10015 },
 		{ WHIT..INDENT..BZ["The Molten Core"], 10016 },
@@ -109,6 +108,7 @@ data.maps = {
 		{ WHIT..INDENT..BZ["Old Hillsbrad Foothills"], 10013 };
 		{ WHIT..INDENT..BZ["The Black Morass"], 10014 };
 		{ WHIT..INDENT..BZ["Hyjal Summit"], 10015 };
+		{ WHIT..INDENT..BZ["The Culling of Stratholme"] },
 		{ "" },
 		{ BLUE..L["Blue"]..ALC["Colon"]..ORNG..BATTLEGROUNDS },
 		{ WHIT..L["White"]..ALC["Colon"]..ORNG..L["Instances"] },

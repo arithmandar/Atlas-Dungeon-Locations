@@ -77,7 +77,7 @@ data.maps = {
 		{ WHIT.." 6) "..BZ["Shadowfang Keep"]..ALC["Comma"].._RED..BZ["Silverpine Forest"], 10010 },
 		{ WHIT.." 7) "..BZ["Gnomeregan"]..ALC["Comma"].._RED..BZ["Dun Morogh"], 10011 },
 		{ WHIT.." 8) "..BZ["Uldaman"]..ALC["Comma"].._RED..BZ["Badlands"], 10012 },
-		{ WHIT.." 7) "..BZ["Blackrock Mountain"]..ALC["Comma"].._RED..BZ["Searing Gorge"]..ALC["Slash"]..BZ["Burning Steppes"], 10013 },
+		{ WHIT.." 9) "..BZ["Blackrock Mountain"]..ALC["Comma"].._RED..BZ["Searing Gorge"]..ALC["Slash"]..BZ["Burning Steppes"], 10013 },
 		{ WHIT..INDENT..BZ["Blackrock Depths"], 10014 },
 		{ WHIT..INDENT..BZ["Blackrock Spire"], 10015 },
 		{ WHIT..INDENT..BZ["The Molten Core"], 10016 },

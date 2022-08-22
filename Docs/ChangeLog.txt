@@ -8,6 +8,13 @@ Copyright 2011 ~ 2022 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
 = Change Log =
 ==============
 
+v1.51.04 (Aug. 22, 2022)
+------------------------
+- BCC / WOLTKC Blackrock Mountain number fixed
+- WOLTKC dungeon location update
+  - removed Naxxramas from Eastern Kingdoms
+  - added The Culling of Stratholme to Carvens of Time
+
 v1.51.03 (Aug. 20, 2022)
 ------------------------
 - Fixed syntax error while in WOLTKC
