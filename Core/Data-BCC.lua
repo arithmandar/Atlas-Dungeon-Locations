@@ -105,7 +105,7 @@ data.maps = {
 		{ WHIT.." 9) "..BZ["Zul'Farrak"]..ALC["Comma"].._RED..BZ["Tanaris"], 10009 },
 		{ WHIT.."10) "..BZ["Temple of Ahn'Qiraj"]..ALC["Comma"].._RED..BZ["Silithus"], 10010 },
 		{ WHIT.."11) "..BZ["Ruins of Ahn'Qiraj"]..ALC["Comma"].._RED..BZ["Silithus"], 10011 },
-		{ WHIT.."10) "..BZ["Caverns of Time"]..", ".._RED..BZ["Tanaris"], 10012 };
+		{ WHIT.."12) "..BZ["Caverns of Time"]..", ".._RED..BZ["Tanaris"], 10012 };
 		{ WHIT..INDENT..BZ["Old Hillsbrad Foothills"], 10013 };
 		{ WHIT..INDENT..BZ["The Black Morass"], 10014 };
 		{ WHIT..INDENT..BZ["Hyjal Summit"], 10015 };
