@@ -481,7 +481,7 @@ data.coords = {
 		{ "5", 10005, 239, 400, 448, 515, "Raid" }, -- Auchindoun
 		{ "6", 10006, 449, 411, 714, 529, "Raid" }, -- Black Temple
 	},
-	DLNorthrend = {
+--[[	DLNorthrend = {
 		{ "1",   10001, 307, 114, 577, 107, "Raid" }, -- Ulduar
 		{ "2",   10002, 242, 129, 470, 131, "Raid" }, -- Crusaders' Coliseum
 		{ "3",   10003, 422, 187, 778, 220, "Dungeon" }, -- Gundrak
@@ -495,7 +495,7 @@ data.coords = {
 		{ "11",  10011, 309, 287, 586, 399, "Raid" }, -- Naxxramas
 		{ "12",  10012, 432, 377, 786, 546, "Dungeon" }, -- Utgarde Keep
 		{ "1'",  10013, 176, 268, 356, 340, "Battlegrounds" }, -- Wintergrasp
-	},
+	},]]
 	DLDeepholm = {
 		{ "1", 10001, 298, 311  }, -- The Stonecore
 	},

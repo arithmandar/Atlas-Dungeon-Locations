@@ -180,19 +180,4 @@ data.maps = {
 }
 
 data.coords = {
-	DLNorthrend = {
-		{ "1",   10001, 307, 114, 577, 107, "Raid" }, -- Ulduar
-		{ "2",   10002, 242, 129, 470, 131, "Raid" }, -- Crusaders' Coliseum
-		{ "3",   10003, 422, 187, 778, 220, "Dungeon" }, -- Gundrak
-		{ "4",   10004, 198, 218, 403, 290, "Raid" }, -- Icecrown Citadel
-		{ "5",   10005, 252, 223, 479, 287, "Dungeon" }, -- The Violet Hold
-		{ "6",   10006, 174, 237, 355, 307, "Raid" }, -- Vault of Archavon
-		{ "7",   10007, 337, 256, 628, 345, "Dungeon" }, -- Drak'Tharon Keep
-		{ "8",   10008,  34, 287, 126, 392, "Raid" }, -- The Nexus
-		{ "9",   10009, 195, 291, 389, 401, "Dungeon" }, -- Azjol-Nerub
-		{ "10",  10010, 258, 297, 500, 407, "Raid" }, -- Wyrmrest Temple
-		{ "11",  10011, 309, 287, 586, 399, "Raid" }, -- Naxxramas
-		{ "12",  10012, 432, 377, 786, 546, "Dungeon" }, -- Utgarde Keep
-		{ "1'",  10013, 176, 268, 356, 340, "Battlegrounds" }, -- Wintergrasp
-	}
 }
