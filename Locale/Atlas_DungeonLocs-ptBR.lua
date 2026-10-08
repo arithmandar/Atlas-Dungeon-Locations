@@ -1,32 +1,19 @@
-﻿-- $Id$
---[[
-
-	Atlas, a World of Warcraft instance map browser
-	Copyright 2005 ~ 2010 - Dan Gilbert <dan.b.gilbertat gmail dot com>
-	Copyright 2010 - Lothaer <lothayerat gmail dot com>, Atlas Team
-	Copyright 2011 ~ 2023 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
-
-	This file is part of Atlas.
-
-	Atlas is free software; you can redistribute it and/or modify
-	it under the terms of the GNU General Public License as published by
-	the Free Software Foundation; either version 2 of the License, or
-	(at your option) any later version.
-
-	Atlas is distributed in the hope that it will be useful,
-	but WITHOUT ANY WARRANTY; without even the implied warranty of
-	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-	GNU General Public License for more details.
-
-	You should have received a copy of the GNU General Public License
-	along with Atlas; if not, write to the Free Software
-	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
-
---]]
+-- Atlas Dungeon Locations Brazilian Portuguese Localization
 
 local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
-local L = AceLocale:NewLocale("Atlas_DungeonLocs", "frFR", false);
+local L = AceLocale:NewLocale("Atlas_DungeonLocs", "ptBR", false);
 
 if L then
---@localization(locale="frFR", format="lua_additive_table")@
+	--Common
+	L["Blue"] = "Azul";
+    L["Dungeon Locations"] = "Localização de masmorras";
+	L["Green"] = "Verde";
+	L["Instances"] = "Instâncias";
+	L["White"] = "Branco";
+	-- Broken Isles
+    L["Meeting stone is inside the Sanctum of Order"] = "A pedra de encontro fica dentro do Sacrário da Ordem.";
+    L["Raid entrance is inside the Sanctum Depths of Sanctum of Order"] = "A entrada do raide fica nas profundezas do sacrário, dentro do Sacrário da Ordem.";
+    -- Config
+    L["Show %s's dungeon location maps"] = "Mostrar os mapas de localização de masmorras de %s"
+    L["Change will take effect after next login; or type '/reload' command to reload addon"] = "A alteração terá efeito no próximo login; ou digite '/reload' para recarregar o addon."
 end

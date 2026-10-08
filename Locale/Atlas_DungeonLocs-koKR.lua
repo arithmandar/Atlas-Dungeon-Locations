@@ -1,32 +1,19 @@
-﻿-- $Id$
---[[
-
-	Atlas, a World of Warcraft instance map browser
-	Copyright 2005 ~ 2010 - Dan Gilbert <dan.b.gilbertat gmail dot com>
-	Copyright 2010 - Lothaer <lothayerat gmail dot com>, Atlas Team
-	Copyright 2011 ~ 2023 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
-
-	This file is part of Atlas.
-
-	Atlas is free software; you can redistribute it and/or modify
-	it under the terms of the GNU General Public License as published by
-	the Free Software Foundation; either version 2 of the License, or
-	(at your option) any later version.
-
-	Atlas is distributed in the hope that it will be useful,
-	but WITHOUT ANY WARRANTY; without even the implied warranty of
-	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-	GNU General Public License for more details.
-
-	You should have received a copy of the GNU General Public License
-	along with Atlas; if not, write to the Free Software
-	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
-
---]]
+-- Atlas Dungeon Locations Korean Localization
 
 local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
-local L = AceLocale:NewLocale("Atlas_DungeonLocs", "frFR", false);
+local L = AceLocale:NewLocale("Atlas_DungeonLocs", "koKR", false);
 
 if L then
---@localization(locale="frFR", format="lua_additive_table")@
+	--Common
+    L["Blue"] = "파란색";
+    L["Dungeon Locations"] = "던전 위치";
+    L["Green"] = "녹색";
+    L["Instances"] = "인스턴스";
+    L["White"] = "흰색";
+    -- Broken Isles
+    L["Meeting stone is inside the Sanctum of Order"] = "만남의 돌은 질서의 성소 안에 있습니다.";
+    L["Raid entrance is inside the Sanctum Depths of Sanctum of Order"] = "공격대 입구는 질서의 성소 안쪽 성소 심층부에 있습니다.";
+    -- Config
+    L["Show %s's dungeon location maps"] = "%s의 던전 위치 지도 표시"
+    L["Change will take effect after next login; or type '/reload' command to reload addon"] = "변경 사항은 다음 로그인 시 적용됩니다. 또는 '/reload' 명령어를 입력하여 애드온을 다시 불러올 수 있습니다."
 end
