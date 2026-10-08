@@ -1,51 +1,20 @@
--- $Id$
---[[
-
-	Atlas, a World of Warcraft instance map browser
-	Copyright 2005 ~ 2010 - Dan Gilbert <dan.b.gilbertat gmail dot com>
-	Copyright 2010 - Lothaer <lothayerat gmail dot com>, Atlas Team
-	Copyright 2011 ~ 2023 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
-
-	This file is part of Atlas.
-
-	Atlas is free software; you can redistribute it and/or modify
-	it under the terms of the GNU General Public License as published by
-	the Free Software Foundation; either version 2 of the License, or
-	(at your option) any later version.
-
-	Atlas is distributed in the hope that it will be useful,
-	but WITHOUT ANY WARRANTY; without even the implied warranty of
-	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-	GNU General Public License for more details.
-
-	You should have received a copy of the GNU General Public License
-	along with Atlas; if not, write to the Free Software
-	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
-
---]]
+-----------------------------------------------------------------------
+-- Data for the mainline version of World of Warcraft.
+-----------------------------------------------------------------------
 local _G = getfenv(0)
-
--- ----------------------------------------------------------------------------
--- AddOn namespace.
--- ----------------------------------------------------------------------------
-local FOLDER_NAME, private = ...
-
+local _, private = ...
 local LibStub = _G.LibStub
+local Atlas = LibStub("AceAddon-3.0"):GetAddon("Atlas")
+
+local Client = Atlas.Client
+
+if not Client.isRetail then
+	return
+end
 
 local BZ = Atlas_GetLocaleLibBabble("LibBabble-SubZone-3.0")
 local L = LibStub("AceLocale-3.0"):GetLocale(private.addon_name)
 local ALC = LibStub("AceLocale-3.0"):GetLocale("Atlas")
-local Atlas = LibStub("AceAddon-3.0"):GetAddon("Atlas")
-
-local WoWClassicEra, WoWClassicTBC, WoWRetail
-local wowtocversion  = select(4, GetBuildInfo())
-if wowtocversion < 20000 then
-	WoWClassicEra = true
-elseif wowtocversion > 19999 and wowtocversion < 90000 then 
-	WoWClassicTBC = true
-else
-	WoWRetail = true
-end
 
 local data = {}
 local alliance = {}
@@ -54,18 +23,20 @@ private.data = data
 private.alliance = alliance
 private.horde = horde
 
-local BLUE = "|cff6666ff"
-local GREN = "|cff66cc33"
-local LBLU = "|cff33cccc"
-local _RED = "|cffcc3333"
-local ORNG = "|cffcc9933"
-local PINK = "|ccfcc33cc"
-local PURP = "|cff9900ff"
-local WHIT = "|cffffffff"
-local GREY = "|cff999999"
-local YLOW = "|cffcccc33"
-local ALAN = "|cff7babe0" -- Alliance
-local HRDE = "|cffda6955" -- Horde
+local constants = private.constants
+local labelcolors = constants.colors.labels
+local BLUE = labelcolors.BLUE
+local GREN = labelcolors.GREN
+local LBLU = labelcolors.LBLU
+local _RED = labelcolors._RED
+local ORNG = labelcolors.ORNG
+local PINK = labelcolors.PINK
+local PURP = labelcolors.PURP
+local WHIT = labelcolors.WHIT
+local GREY = labelcolors.GREY
+local YLOW = labelcolors.YLOW
+local ALAN = labelcolors.ALAN -- Alliance
+local HRDE = labelcolors.HRDE -- Horde
 local INDENT = "      "
 
 alliance.maps = {

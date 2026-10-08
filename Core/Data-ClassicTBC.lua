@@ -1,36 +1,16 @@
--- $Id$
---[[
-
-	Atlas, a World of Warcraft instance map browser
-	Copyright 2005 ~ 2010 - Dan Gilbert <dan.b.gilbertat gmail dot com>
-	Copyright 2010 - Lothaer <lothayerat gmail dot com>, Atlas Team
-	Copyright 2011 ~ 2023 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
-
-	This file is part of Atlas.
-
-	Atlas is free software; you can redistribute it and/or modify
-	it under the terms of the GNU General Public License as published by
-	the Free Software Foundation; either version 2 of the License, or
-	(at your option) any later version.
-
-	Atlas is distributed in the hope that it will be useful,
-	but WITHOUT ANY WARRANTY; without even the implied warranty of
-	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-	GNU General Public License for more details.
-
-	You should have received a copy of the GNU General Public License
-	along with Atlas; if not, write to the Free Software
-	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
-
---]]
+-----------------------------------------------------------------------
+-- Data for Classic TBC
+-----------------------------------------------------------------------
 local _G = getfenv(0)
-
--- ----------------------------------------------------------------------------
--- AddOn namespace.
--- ----------------------------------------------------------------------------
-local FOLDER_NAME, private = ...
-
+local _, private = ...
 local LibStub = _G.LibStub
+local Atlas = LibStub("AceAddon-3.0"):GetAddon("Atlas")
+
+local Client = Atlas.Client
+
+if not Client.isAnniversaryTBC then
+	return
+end
 
 local BZ = Atlas_GetLocaleLibBabble("LibBabble-SubZone-3.0")
 local L = LibStub("AceLocale-3.0"):GetLocale(private.addon_name)
@@ -43,18 +23,20 @@ private.data = data
 private.alliance = alliance
 private.horde = horde
 
-local BLUE = "|cff6666ff"
-local GREN = "|cff66cc33"
-local LBLU = "|cff33cccc"
-local _RED = "|cffcc3333"
-local ORNG = "|cffcc9933"
-local PINK = "|ccfcc33cc"
-local PURP = "|cff9900ff"
-local WHIT = "|cffffffff"
-local GREY = "|cff999999"
-local YLOW = "|cffcccc33"
-local ALAN = "|cff7babe0" -- Alliance
-local HRDE = "|cffda6955" -- Horde
+local constants = private.constants
+local labelcolors = constants.colors.labels
+local BLUE = labelcolors.BLUE
+local GREN = labelcolors.GREN
+local LBLU = labelcolors.LBLU
+local _RED = labelcolors._RED
+local ORNG = labelcolors.ORNG
+local PINK = labelcolors.PINK
+local PURP = labelcolors.PURP
+local WHIT = labelcolors.WHIT
+local GREY = labelcolors.GREY
+local YLOW = labelcolors.YLOW
+local ALAN = labelcolors.ALAN -- Alliance
+local HRDE = labelcolors.HRDE -- Horde
 local INDENT = "      "
 
 alliance.maps = {}
@@ -72,6 +54,7 @@ data.maps = {
 		{ WHIT.." 2) "..BZ["Zul'Aman"]..ALC["Comma"].._RED..BZ["Ghostlands"], 10002 },
 		{ WHIT.." 3) "..BZ["Scarlet Monastery"]..ALC["Comma"].._RED..BZ["Tirisfal Glades"], 10003 },
 		{ WHIT.." 4) "..BZ["Stratholme"]..ALC["Comma"].._RED..BZ["Eastern Plaguelands"], 10004 },
+		{ WHIT..INDENT..BZ["Naxxramas"]..ALC["Comma"].._RED..BZ["Stratholme"] },
 		{ WHIT.." 5) "..BZ["Scholomance"]..ALC["Comma"].._RED..BZ["Western Plaguelands"], 10005 },
 		{ WHIT.." 6) "..BZ["Shadowfang Keep"]..ALC["Comma"].._RED..BZ["Silverpine Forest"], 10006 },
 		{ WHIT.." 7) "..BZ["Gnomeregan"]..ALC["Comma"].._RED..BZ["Dun Morogh"], 10007 },
@@ -108,7 +91,6 @@ data.maps = {
 		{ WHIT..INDENT..BZ["Old Hillsbrad Foothills"] };
 		{ WHIT..INDENT..BZ["The Black Morass"] };
 		{ WHIT..INDENT..BZ["Hyjal Summit"] };
-		{ WHIT..INDENT..BZ["The Culling of Stratholme"] },
 		{ "" },
 		{ BLUE..L["Blue"]..ALC["Colon"]..ORNG..BATTLEGROUNDS },
 		{ WHIT..L["White"]..ALC["Colon"]..ORNG..L["Instances"] },
@@ -137,45 +119,6 @@ data.maps = {
 		{ WHIT..INDENT..BZ["Sethekk Halls"] },
 		{ WHIT..INDENT..BZ["Shadow Labyrinth"] },
 		{ WHIT.." 6) "..BZ["Black Temple"]..ALC["Comma"].._RED..BZ["Shadowmoon Valley"], 10006 },
-	},
-	DLNorthrend = {
-		ZoneName = { BZ["Northrend"] },
-		LargeMap = "DLNorthrend",
-		{ WHIT.." 1) "..BZ["Ulduar"]..ALC["Comma"].._RED..BZ["The Storm Peaks"], 10001 },
-		{ WHIT..INDENT..BZ["Ulduar"] },
-		{ WHIT..INDENT..BZ["Halls of Stone"] },
-		{ WHIT..INDENT..BZ["Halls of Lightning"] },
-		{ WHIT.." 2) "..ALC["Crusaders' Coliseum"]..ALC["Comma"].._RED..BZ["Icecrown"], 10002 },
-		{ WHIT..INDENT..BZ["Trial of the Crusader"] },
-		{ WHIT..INDENT..BZ["Trial of the Champion"] },
-		{ WHIT.." 3) "..BZ["Gundrak"]..ALC["Comma"].._RED..BZ["Zul'Drak"], 10003 },
-		{ WHIT.." 4) "..BZ["Icecrown Citadel"]..ALC["Comma"].._RED..BZ["Icecrown"], 10004 },
-		{ WHIT..INDENT..BZ["Icecrown Citadel"] },
-		{ WHIT..INDENT..BZ["The Frozen Halls"] },		
-		{ WHIT..INDENT..INDENT..BZ["The Forge of Souls"] },
-		{ WHIT..INDENT..INDENT..BZ["Pit of Saron"] },
-		{ WHIT..INDENT..INDENT..BZ["Halls of Reflection"] },
-		{ WHIT.." 5) "..BZ["The Violet Hold"]..ALC["Comma"].._RED..BZ["Dalaran"], 10005 },
-		{ WHIT.." 6) "..BZ["Vault of Archavon"]..ALC["Comma"].._RED..BZ["Wintergrasp"], 10006 },
-		{ WHIT.." 7) "..BZ["Drak'Tharon Keep"]..ALC["Comma"].._RED..BZ["Grizzly Hills"], 10007 },
-		{ WHIT.." 8) "..BZ["The Nexus"]..ALC["Comma"].._RED..BZ["Coldarra"], 10008 },
-		{ WHIT..INDENT..BZ["The Nexus"] },
-		{ WHIT..INDENT..BZ["The Oculus"] },
-		{ WHIT..INDENT..BZ["The Eye of Eternity"] },
-		{ WHIT.." 9) "..BZ["Azjol-Nerub"]..ALC["Comma"].._RED..BZ["Dragonblight"], 10009 },
-		{ WHIT..INDENT..BZ["Azjol-Nerub"] },
-		{ WHIT..INDENT..BZ["Ahn'kahet: The Old Kingdom"] },
-		{ WHIT.."10) "..BZ["Wyrmrest Temple"]..ALC["Comma"].._RED..BZ["Dragonblight"], 10010 },
-		{ WHIT..INDENT..BZ["The Obsidian Sanctum"] },
-		{ WHIT..INDENT..BZ["The Ruby Sanctum"] },
-		{ WHIT.."11) "..BZ["Naxxramas"]..ALC["Comma"].._RED..BZ["Dragonblight"], 10011 },
-		{ WHIT.."12) "..BZ["Utgarde Keep"]..ALC["Comma"].._RED..BZ["Howling Fjord"], 10012 },
-		{ WHIT..INDENT..BZ["Utgarde Keep"] },
-		{ WHIT..INDENT..BZ["Utgarde Pinnacle"] },
-		{ GREN.." 1') "..BZ["Wintergrasp"]..ALC["Comma"].._RED..BZ["Wintergrasp"], 10013 },
-		{ "" },
-		{ WHIT..L["White"]..ALC["Colon"]..ORNG..L["Instances"] },
-		{ GREN..L["Green"]..ALC["Colon"]..ORNG..BATTLEGROUNDS },
 	}
 }
 
@@ -197,13 +140,5 @@ data.coords = {
 		{ 12, 10012, 239, 425 },
 		{ 13, 10013, 276, 400 },
 		{ 14, 10014, 256, 409 },
-	},
-	DLOutland = {
-		{ "1", 10001, 224,  78, 424, 116, "Raid" }, -- Gruul's Lair
-		{ "2", 10002, 410, 102, 659, 148, "Raid" }, -- Tempest Keep
-		{ "3", 10003, 146, 219, 336, 292, "Raid" }, -- Coilfang Reservoir
-		{ "4", 10004, 324, 259, 555, 340, "Raid" }, -- Hellfire Citadel
-		{ "5", 10005, 239, 400, 448, 515, "Raid" }, -- Auchindoun
-		{ "6", 10006, 449, 411, 714, 529, "Raid" }, -- Black Temple
 	},
 }

@@ -1,6 +1,5 @@
--- $Id$
 -----------------------------------------------------------------------
--- Upvalued Lua API.
+-- Configuration
 -----------------------------------------------------------------------
 -- Functions
 local _G = getfenv(0)
@@ -12,12 +11,10 @@ local format = string.format
 -- ----------------------------------------------------------------------------
 -- AddOn namespace.
 -- ----------------------------------------------------------------------------
-local FOLDER_NAME, private = ...
+local _, private = ...
 local LibStub = _G.LibStub;
 local addon = LibStub("AceAddon-3.0"):GetAddon(private.addon_name)
 local L = LibStub("AceLocale-3.0"):GetLocale(private.addon_name)
-
-local options, moduleOptions = nil, {}
 
 local config = {}
 private.config = config
