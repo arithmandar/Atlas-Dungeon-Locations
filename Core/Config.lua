@@ -30,6 +30,20 @@ local function ShowOption()
 	return format(L["Show %s's dungeon location maps"], f)
 end
 
+local function staticPopup(title, msg)
+	if not title or not msg then return end
+	local dialog = {
+		text = msg,
+		button1 = OKAY,
+		timeout = 0,
+		whileDead = 1,
+	}
+	if StaticPopupDialogs[title] == nil then
+		StaticPopupDialogs[title] = dialog
+	end
+	StaticPopup_Show(title, msg)
+end
+
 config.options = {
 	type = "group",
 	name = addon.LocName,
@@ -52,6 +66,7 @@ config.options = {
 					end,
 					set = function(info, value)
 						private.db.all_faction = value
+						staticPopup(RELOADUI, L["Change will take effect after next login; or type '/reload' command to reload addon"])
 					end,
 				},
 			},

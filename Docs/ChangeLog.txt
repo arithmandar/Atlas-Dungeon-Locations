@@ -7,6 +7,10 @@ Copyright 2011 ~ 2023 - Arith Hsu, Atlas Team
 = Change Log =
 ==============
 
+v1.53.01 (Oct. xx, 2026)
+------------------------
+- Added static popup for reload UI when changing faction display option
+
 v1.53.00 (Oct. 08, 2026)
 ------------------------
 - Updated TOC to support 11509, 16001, 20506, 50504, 120100
