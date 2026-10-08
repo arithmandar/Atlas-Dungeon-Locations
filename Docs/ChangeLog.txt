@@ -7,9 +7,10 @@ Copyright 2011 ~ 2023 - Arith Hsu, Atlas Team
 = Change Log =
 ==============
 
-v1.53.01 (Oct. xx, 2026)
+v1.53.01 (Oct. 09, 2026)
 ------------------------
 - Added static popup for reload UI when changing faction display option
+- Fixed incorrect detection of Classic Anniversary
 
 v1.53.00 (Oct. 08, 2026)
 ------------------------
