@@ -4,6 +4,7 @@
 local _G = getfenv(0)
 local _, private = ...
 local LibStub = _G.LibStub
+---@type AtlasAddon
 local Atlas = LibStub("AceAddon-3.0"):GetAddon("Atlas")
 
 local Client = Atlas.Client
