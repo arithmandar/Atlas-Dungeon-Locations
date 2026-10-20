@@ -1,211 +1,223 @@
-Atlas, a World of Warcraft instance map browser
-Copyright 2005 ~ 2010 - Dan Gilbert <dan.b.gilbertat gmail dot com>
-Copyright 2010 - Lothaer <lothayerat gmail dot com>, Atlas Team
-Copyright 2011 ~ 2023 - Arith Hsu, Atlas Team
+# Atlas, a World of Warcraft instance map browser
 
-==============
-= Change Log =
-==============
+Copyright 2005 ~ 2010 - Dan Gilbert
+Copyright 2010 - Lothaer, Atlas Team  
+Copyright 2011 ~ 2026 - Arith Hsu, Atlas Team
 
-v1.54.00 (Oct. 15, 2026)
-------------------------
+## Change Log
+
+### v1.54.01 (Oct. 20, 2026)
+
+- Forever updates:
+  - Maps revamped
+  - Added coordinates
+  - Added new dungeons' location: 
+    - Ruins of Lordaeron
+    - City of Dalaran, 
+    - Excavation Site: Wetlands
+    - Hall of Thanes
+    - Krol'dok Stronghold
+- Removed color labels' definition in constant and move to call the ones defined in Atlas
+
+### v1.54.00 (Oct. 15, 2026)
+
 - ToC Update to support WoW 12.1.5
 
-v1.53.01 (Oct. 09, 2026)
-------------------------
+### v1.53.01 (Oct. 09, 2026)
+
 - Added static popup for reload UI when changing faction display option
 - Fixed incorrect detection of Classic Anniversary
 
-v1.53.00 (Oct. 08, 2026)
-------------------------
+### v1.53.00 (Oct. 08, 2026)
+
 - Updated TOC to support 11509, 16001, 20506, 50504, 120100
 - Classic Progressional (previously WOLTK, now MoP) maps updated
 - Migrate from CurseForge SVN to GitHub
 - Added auto-packaging to support both CurseForge and WoWInterface
 
-v1.52.04 (Jul. 29, 2023)
-------------------------
+### v1.52.04 (Jul. 29, 2023)
+
 - Toc update to support WoW 10.1.5 / 3.4.2
 
-v1.52.03 (Mar. 28, 2022)
-------------------------
+### v1.52.03 (Mar. 28, 2022)
+
 - Re-packaging
 
-v1.52.02 (Mar. 20, 2023)
-------------------------
+### v1.52.02 (Mar. 20, 2023)
+
 - Toc update to support WoW 10.0.7 / 3.4.1
 
-v1.52.01 (Nov. 19, 2022)
-------------------------
+### v1.52.01 (Nov. 19, 2022)
+
 - Toc update to support WoW 10.0.2
 - Added Dragon Isles instance location
 - Added "Uldaman: Legacy of Tyr" to Eastern Kingdoms map
 
-v1.52.00 (Nov. 06, 2022)
-------------------------
+### v1.52.00 (Nov. 06, 2022)
+
 - Toc update to support WoW 10.0.0
 
-v1.51.07 (Aug. 28, 2022)
-------------------------
+### v1.51.07 (Aug. 28, 2022)
+
 - Maps revamped
 
-v1.51.06 (Aug. 22, 2022)
-------------------------
+### v1.51.06 (Aug. 22, 2022)
+
 - BCC / WOLTKC Caverns of Time number fixed
 
-v1.51.05 (Aug. 22, 2022)
-------------------------
+### v1.51.05 (Aug. 22, 2022)
+
 - BCC / WOLTKC Caverns of Time number fixed
 
-v1.51.04 (Aug. 22, 2022)
-------------------------
+### v1.51.04 (Aug. 22, 2022)
+
 - BCC / WOLTKC Blackrock Mountain number fixed
 - WOLTKC dungeon location update
   - removed Naxxramas from Eastern Kingdoms
   - added The Culling of Stratholme to Carvens of Time
 
-v1.51.03 (Aug. 20, 2022)
-------------------------
+### v1.51.03 (Aug. 20, 2022)
+
 - Fixed syntax error while in WOLTKC
 
-v1.51.02 (Aug. 17, 2022)
-------------------------
+### v1.51.02 (Aug. 17, 2022)
+
 - Toc update to support WoW 9.2.7
 
-v1.51.01 (Jul. 24, 2022)
-------------------------
+### v1.51.01 (Jul. 24, 2022)
+
 - Support WOLTKC
 
-v1.51.00 (Jul. 23, 2022)
-------------------------
+### v1.51.00 (Jul. 23, 2022)
+
 - Retail ToC update to support WoW 9.2.5
 - Classic ToC update to support WoW 1.14.3
 
-v1.50.04 (Mar. 26, 2022)
-------------------------
+### v1.50.04 (Mar. 26, 2022)
+
 - Fixed errors in Classic / BCC release
 
-v1.50.03 (Mar. 24, 2022)
-------------------------
+### v1.50.03 (Mar. 24, 2022)
+
 - Added Horde's dungeon location maps in Zandalar and Kul Tiras
 - Added Shadowlands' dungeon location maps
 - Added option toggling for Transportation maps, allowing you to show only your faction's taxi maps, or show all factions' maps.
 
-v1.50.02 (Mar. 23, 2022)
-------------------------
+### v1.50.02 (Mar. 23, 2022)
+
 - Revamp BCC's dungeon maps and add the following dungeons' locations
   - Magisters' Terrace
   - Sunwell Plateau
   - Karazhan
   - Caverns of Time: Old Hillsbrad Foothills, The Black Morass, Hyjal Summit
 
-v1.50.01 (Mar. 23, 2022)
-------------------------
+### v1.50.01 (Mar. 23, 2022)
+
 - BCC ToC update to support WoW 2.5.4
 
-v1.50.00 (Feb. 23, 2022)
-------------------------
+### v1.50.00 (Feb. 23, 2022)
+
 - Toc update to support WoW 9.2.0
 
-v1.49.03 (Feb. 10, 2022)
-------------------------
+### v1.49.03 (Feb. 10, 2022)
+
 - Support multiple ToC
 - BCC ToC update to support WoW 2.5.3
 - Classic ToC update to support WoW 1.14.2
 
-v1.49.02 (Feb. 3, 2022)
-------------------------
+### v1.49.02 (Feb. 3, 2022)
+
 - ToC update to support WoW 9.1.5
 
-v1.49.01 (Jun. 30, 2021)
-------------------------
+### v1.49.01 (Jun. 30, 2021)
+
 - ToC update to support WoW 9.1.0
 
-v1.49.00 (May 22, 2021)
-------------------------
+### v1.49.00 (May 22, 2021)
+
 - ToC update to support WoW 9.0.5
 - Support WoW Classic Era and TBC
 
-v1.48.00 (Oct. 18, 2020)
-------------------------
+### v1.48.00 (Oct. 18, 2020)
+
 - ToC update to support WoW 9.0.1
 
-v1.47.00 (Jan. 20, 2020)
-------------------------
+### v1.47.00 (Jan. 20, 2020)
+
 - ToC update to support WoW 8.3.0
 - Corrected dungeon location of Zuldazar to Zandalar
 
-v1.46.01 (Jan. 16, 2020)
-------------------------
+### v1.46.01 (Jan. 16, 2020)
+
 - Merge with WoW classic's dungeon maps
 
-v1.46.00 (Jan. 05, 2020)
-------------------------
+### v1.46.00 (Jan. 05, 2020)
+
 - ToC update to support WoW 8.2.5
 - Added Argus instance location map
 - Added Battle for Azeroth instance location maps
 
-v1.45.00 (Sep. 04, 2019)
-------------------------
+### v1.45.00 (Sep. 04, 2019)
+
 - ToC update to support WoW 8.2.0
 
-v1.44.01 (Dec. 18, 2018)
-------------------------
+### v1.44.01 (Dec. 18, 2018)
+
 - ToC update to support WoW 8.1.0
 
-v1.44.00 (Aug. 09, 2018)
-------------------------
+### v1.44.00 (Aug. 09, 2018)
+
 - ToC update to support WoW 8.0.1
 
-v1.43.00 (Aug. 30, 2017)
-------------------------
+### v1.43.00 (Aug. 30, 2017)
+
 - ToC update to support WoW 7.3.0
 
-v1.42.00 (Jun. 29, 2017)
-------------------------
+### v1.42.00 (Jun. 29, 2017)
+
 - Updated to support Atlas 1.42.00
 
-v1.39.00 (Mar. 27, 2017)
-------------------------
+### v1.39.00 (Mar. 27, 2017)
+
 - Toc update to support WoW 7.2
 
-v1.38.01 (Mar. 22, 2017)
-------------------------
+### v1.38.01 (Mar. 22, 2017)
+
 - Added the location of the new dungeon - Cathedral of Eternal Night (7.2)
 - Added the location of the new raid - Tomb of Sargeras (7.2)
 
-v1.38.00 (Mar. 16, 2017)
-------------------------
+### v1.38.00 (Mar. 16, 2017)
+
 - Translation update:
   - Korean (netaras)
 
-v1.35.00 (Oct. 27, 2016)
-------------------------
+### v1.35.00 (Oct. 27, 2016)
+
 - Toc update to support WoW 7.1.0
 
-v1.34.04 (Oct. 19, 2016)
-------------------------
+### v1.34.04 (Oct. 19, 2016)
+
 - Remove Broken Isles' PVP areas' faction info as it's rotated
 
-v1.34.03 (Oct. 04, 2016)
-------------------------
+### v1.34.03 (Oct. 04, 2016)
+
 - Added world quest PVP areas' location
 - Translation update:
   - Russian (dartraiden)
 - Map revamped:
   - Eastern Kingdoms
 - Adjust green marks' color: Kalimdor, Broken Isles
-    
-v1.34.02 (Sep. 20, 2016)
-------------------------
+
+### v1.34.02 (Sep. 20, 2016)
+
 - Added coordinates information to Broken Isles map
 
-v1.34.01 (Sep. 06, 2016)
-------------------------
+### v1.34.01 (Sep. 06, 2016)
+
 - Added the meeting stone location of Eye of Azshara
 
-v1.34.00 (Aug. 31, 2016)
-------------------------
+### v1.34.00 (Aug. 31, 2016)
+
 - Map revamped:
   - Kalimdor
 - Large size of map added:
@@ -216,119 +228,112 @@ v1.34.00 (Aug. 31, 2016)
   - Draenor
   - Pandaria
   - Azeroth
-  
-v1.33.01 (Jul. 21, 2016)
-------------------------
+
+### v1.33.01 (Jul. 21, 2016)
+
 - Revamp Broke Isles map with better resolution
 - Translation update:
   - German (pas06)
-  
-v1.33.00 (Jul. 19, 2016)
-------------------------
+
+### v1.33.00 (Jul. 19, 2016)
+
 - Toc updated to support WoW Legion pre-patch (7.0.3)
 - Replace punctuations by using Atlas' localization
 
-v1.32.02 (Jul. 13, 2016)
-------------------------
+### v1.32.02 (Jul. 13, 2016)
+
 - Added instance locations of Legion - Broken Isles
-- Translation now being managed on curseforge: http://wow.curseforge.com/addons/atlas-dungeon-locations/localization/
+- Translation now being managed on curseforge: <http://wow.curseforge.com/addons/atlas-dungeon-locations/localization/>
 - Added itIT, ptBR, and koKR translation files (placeholder until we get any translation added)
 
-v1.32.01 (May 17, 2016)
------------------------
+### v1.32.01 (May 17, 2016)
+
 - Added dungeon info as tooptips
 - Updated Draenor map to add battleground location
 
-v1.32.00 (Jul. 13, 2015)
-------------------------
+### v1.32.00 (Jul. 13, 2015)
+
 - TOC update to support WoW 6.2
 - Draenor map updated to add Hellfire Citadel location
 
-v1.31.01 (Mar. 01, 2015)
-------------------------
+### v1.31.01 (Mar. 01, 2015)
+
 - TOC update to support WoW 6.1
 
-v1.31.00 (Nov. 10, 2014)
------------------------
+### v1.31.00 (Nov. 10, 2014)
+
 - Added Draenor dungeon locations
 - Fixed Northrend dungeon location for Naxxramas
 
-v1.30.00 (Oct. 15, 2014)
------------------------
+### v1.30.00 (Oct. 15, 2014)
+
 - TOC update to support WoW 6.0
 
-v1.26.00 (Sep. 09, 2013)
------------------------
+### v1.26.00 (Sep. 09, 2013)
+
 - TOC update to support WoW 5.4
 - Pandaria
   - Added location of Siege of Orgrimmar
 
-	
-v1.25.00 (May 21, 2013)
------------------------
+### v1.25.00 (May 21, 2013)
+
 - TOC update to support WoW 5.3
-- Map update: 
-    - Pandaria: added Deepwind Gorge battleground location
-    
-v1.24.00 (Mar. 05, 2013)
------------------------
+- Map update:
+  - Pandaria: added Deepwind Gorge battleground location
+
+### v1.24.00 (Mar. 05, 2013)
+
 - TOC update to support WoW 5.2
 - Map update:
-    - Pandaria
-        - replace with new world map images
-	- Added location of Throne of Thunder
-	
-v1.23.0 (Dec. 07, 2012)
------------------------
+  - Pandaria
+    - replace with new world map images
+  - Added location of Throne of Thunder
+
+### v1.23.0 (Dec. 07, 2012)
+
 - TOC update to support WoW 5.1
 
-v1.22.0 (Sep. 25, 2012)
------------------------
+### v1.22.0 (Sep. 25, 2012)
+
 - Update TOC to support WoW 5.0
 - Added Pandaria dungeon locations
 
-v1.21.0 (Nov. 29, 2011)
------------------------
+### v1.21.0 (Nov. 29, 2011)
+
 - Update TOC to support WoW 4.3
 - Splitted from core Atlas addon to be a separated plugin addon
 - New maps added:
-    - The Dragon Soul (dubca7)
-    - Well of Eternity (dubca7)
-    - Hour of Twilight (dubca7)
-    - End Time (dubca7)
-    
-v1.20.1 (Sep. 09, 2011)
------------------------
+  - The Dragon Soul (dubca7)
+  - Well of Eternity (dubca7)
+  - Hour of Twilight (dubca7)
+  - End Time (dubca7)
 
-v1.20.0 (Jun. 28, 2011)
------------------------
+### v1.20.1 (Sep. 09, 2011)
+
+### v1.20.0 (Jun. 28, 2011)
+
 - TOC update to support WoW 4.2
 - Maps added / updated:
-    - New raid map - Firelands (dubca7, Dynaletik)
-    - Dungeon location map update (dubca7, Dynaletik)
-    
-v1.19.2 (May 30, 2011)
------------------------
+  - New raid map - Firelands (dubca7, Dynaletik)
+  - Dungeon location map update (dubca7, Dynaletik)
 
-v1.19.1 (May 06, 2011)
------------------------
+### v1.19.2 (May 30, 2011)
 
-v1.19.0 (Apr. 28, 2011)
------------------------
+### v1.19.1 (May 06, 2011)
+
+### v1.19.0 (Apr. 28, 2011)
+
 - Support WoW 4.1
 - Added Zul'Gurub dungeon map
 
-v1.18.3 (Apr. 13, 2011)
------------------------
+### v1.18.3 (Apr. 13, 2011)
 
-v1.18.2 (Jan. 28, 2011)
------------------------
+### v1.18.2 (Jan. 28, 2011)
 
-v1.18.1 (Jan. 06, 2011)
------------------------
-    
-v1.18.0 (Dec. 07, 2010)
------------------------
+### v1.18.1 (Jan. 06, 2011)
+
+### v1.18.0 (Dec. 07, 2010)
+
 - Prepared Atlas for the Cataclysm Maps
 - Added Baradin Hold
 - Added Blackrock Caverns
@@ -347,12 +352,10 @@ v1.18.0 (Dec. 07, 2010)
   - Twin Peaks
 - Revamped and updated all old maps
 
-v1.17.2 (Oct. 18, 2010)
------------------------
+### v1.17.2 (Oct. 18, 2010)
 
-v1.17.1 (Oct. 13, 2010)
------------------------
+### v1.17.1 (Oct. 13, 2010)
+
 - support WoW 4.0
 
-v1.17.0 (Aug. 15, 2010)
------------------------
+### v1.17.0 (Aug. 15, 2010)
