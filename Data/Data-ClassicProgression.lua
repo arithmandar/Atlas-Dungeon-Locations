@@ -24,7 +24,7 @@ private.data = data
 private.alliance = alliance
 private.horde = horde
 
-local constants = private.constants
+local constants = Atlas.constants
 local labelcolors = constants.colors.labels
 local BLUE = labelcolors.BLUE
 local GREN = labelcolors.GREN
